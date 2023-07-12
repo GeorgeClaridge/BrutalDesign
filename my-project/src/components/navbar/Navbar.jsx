@@ -17,11 +17,11 @@ const Navbar = () => {
       </div>
 
       <div className="flex justify-between self-center text-xl font-bold bg-white border-[2px] shadow-solid-primary rounded-full py-4 px-5">
-        <div className="Link self-center pr-3 text-purple">WEBSITE FILES:</div>
+        <div className="Link self-center pl-[0.6rem] pr-3 text-purple">WEBSITE FILES:</div>
         <div className="Link self-center pr-3">GITHUB</div>
         <img src={Github} alt="Github" className='Icon self-center w-8 mr-3'/>
         <div className="Link self-center pr-3">FIGMA</div>
-        <img src={Figma} alt="Figma" className='Icon self-center w-8 mr-2'/>
+        <img src={Figma} alt="Figma" className='Icon self-center w-8 mr-3'/>
       </div>
 
     </div>
