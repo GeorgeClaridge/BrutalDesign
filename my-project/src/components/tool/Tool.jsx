@@ -89,7 +89,7 @@ const Tool = () => {
 
             </ul>
 
-            <button className="rounded-lg bg-green border-[2px] shadow-solid-primary px-3 py-2 mt-2 mb-4 text-base">All Repositorys</button>
+            <a target='_blank'rel='noopener noreferrer' href="https://github.com/GeorgeClaridge?tab=repositories"><button className="rounded-lg bg-green border-[2px] shadow-solid-primary px-3 py-2 mt-2 mb-4 text-base">All Repositorys</button></a>
 
           </div>
         </div>
