@@ -49,7 +49,7 @@ const Tool = () => {
             <ul>
               <li className="flex justify-between py-2">
                 <div className="Header">
-                  <div className="Header text-xl">React Figma Template</div>
+                  <a target='_blank'rel='noopener noreferrer' href="https://github.com/GeorgeClaridge/figma-plugin" className='text-xl hover:underline cursor-pointer'>React Figma Template </a>
                   <div className="SubHeader text-base text-purple">React - Tailwind - Vite</div>
                 </div>
                 <div className="Icon">ICON</div>
@@ -57,7 +57,7 @@ const Tool = () => {
 
               <li className="flex justify-between py-2">
                 <div className="Header">
-                  <div className="Header text-xl">HealthTech SQL</div>
+                  <a target='_blank'rel='noopener noreferrer' href="https://github.com/GeorgeClaridge/HealthTech-Sql" className='text-xl hover:underline cursor-pointer'>HealthTech SQL</a>
                   <div className="SubHeader text-base text-purple">SQL</div>
                 </div>
                 <div className="Icon">ICON</div>
@@ -65,7 +65,7 @@ const Tool = () => {
 
               <li className="flex justify-between py-2">
                 <div className="Header">
-                  <div className="Header text-xl">Ruby On Rails Friends</div>
+                  <a target='_blank'rel='noopener noreferrer' href="https://github.com/GeorgeClaridge/RubyOnRails_SVG-Inline" className='text-xl hover:underline cursor-pointer'>Ruby On Rails Friends</a>
                   <div className="SubHeader text-base text-purple">Ruby On Rails - SQLite - SVG Inline</div>
                 </div>
                 <div className="Icon">ICON</div>
@@ -73,7 +73,7 @@ const Tool = () => {
 
               <li className="flex justify-between py-2">
                 <div className="Header">
-                  <div className="Header text-xl">Ruby On Rails Devise Login</div>
+                  <a target='_blank'rel='noopener noreferrer' href="https://github.com/GeorgeClaridge/RubyOnRailsFriendsApp" className='text-xl hover:underline cursor-pointer'>Ruby On Rails Devise Login</a>
                   <div className="SubHeader text-base text-purple">Codemy Course</div>
                 </div>
                 <div className="Icon">ICON</div>
@@ -81,7 +81,7 @@ const Tool = () => {
 
               <li className="flex justify-between py-2">
                 <div className="Header">
-                  <div className="Header text-xl">Ruby On Rails Company Layout</div>
+                  <a target='_blank'rel='noopener noreferrer' href="https://github.com/GeorgeClaridge/RubyOnRails-CompanyLayout" className='text-xl hover:underline cursor-pointer'>Ruby On Rails Company Layout</a>
                   <div className="SubHeader text-base text-purple">Ruby On Rails - SVG Inline</div>
                 </div>
                 <div className="Icon">ICON</div>
