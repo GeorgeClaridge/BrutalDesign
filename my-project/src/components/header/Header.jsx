@@ -15,36 +15,36 @@ const Header = () => {
             
             <ul className="center py-8 px-10 text-xl font-bold list-none">
               <li className="flex pb-4">
-                <img src={FilePerson} alt="File Person" className='Icon self-center w-10 mr-4'/>
-                <div className='self-center'>
+                <img src={FilePerson} alt="File Person" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
+                <div className='self-center hover:underline cursor-pointer'>
                   Home
                 </div>
               </li>
 
               <li className="flex py-4">
-                <img src={FilePerson} alt="File Person" className='Icon self-center w-10 mr-4'/>
-                <div className='self-center'>
+                <img src={FilePerson} alt="File Person" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
+                <div className='self-center hover:underline cursor-pointer'>
                   About Me
                 </div>
               </li>
 
               <li className="flex py-4">
-                <img src={FilePerson} alt="File Person" className='Icon self-center w-10 mr-4'/>
-                <div className='self-center'>
+                <img src={FilePerson} alt="File Person" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
+                <div className='self-center hover:underline cursor-pointer'>
                   My Skills
                 </div>
               </li>
 
               <li className="flex py-4">
-                <img src={FilePerson} alt="File Person" className='Icon self-center w-10 mr-4'/>
-                <div className='self-center'>
+                <img src={FilePerson} alt="File Person" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
+                <div className='self-center hover:underline cursor-pointer'>
                   Projects
                 </div>
               </li>
 
               <li className="flex py-4">
-                <img src={FilePerson} alt="File Person" className='Icon self-center w-10 mr-4'/>
-                <div className='self-center'>
+                <img src={FilePerson} alt="File Person" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
+                <div className='self-center hover:underline cursor-pointer'>
                   Contact
                 </div>
               </li>
@@ -54,9 +54,9 @@ const Header = () => {
         </div>
 
         <div className="flex justify-between text-xl font-bold bg-white border-[2px] shadow-solid-primary rounded-full py-4 px-5">
-          <img src={Github} alt="Github" className='Icon self-center w-10'/>
-          <img src={Linkedin} alt="Linkedin" className='Icon self-center w-10'/>
-          <img src={Figma} alt="Figma" className='Icon self-center w-10'/>
+          <a target='_blank'rel='noopener noreferrer' href="https://github.com/GeorgeClaridge"><img src={Github} alt="Github" className='Icon self-center w-10 hover:-translate-y-1 hover:scale-110 duration-300'/></a>
+          <a target='_blank'rel='noopener noreferrer' href="https://www.linkedin.com/in/george-claridge-6a5a1721b/"><img src={Linkedin} alt="Linkedin" className='Icon self-center w-10 hover:-translate-y-1 hover:scale-110 duration-300'/></a>
+          <a target='_blank'rel='noopener noreferrer' href="https://github.com/GeorgeClaridge/BrutalDesign"><img src={Figma} alt="Figma" className='Icon self-center w-10 hover:-translate-y-1 hover:scale-110 duration-300'/></a>
         </div>
 
       </div>
