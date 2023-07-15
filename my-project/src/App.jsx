@@ -1,6 +1,7 @@
 import './App.css'
 import { Navbar,Tool, Header } from './components'
-import { Background, Construct } from './assets'
+import { MobileHeader, MobileNavbar, MobileTool } from './mobilecomponents'
+import { Background } from './assets'
 
 function App() {
 
@@ -12,11 +13,10 @@ function App() {
         <Tool />
       </div>
 
-      <div className="MobileTest lg:hidden xl:hidden 2xl:hidden flex justify-center items-center flex-col py-10 h-screen w-[100%]">
-        <div className="Header text-2xl">Mobile Is Under Construction</div>
-        <img src={Construct} alt="Under Construction" className='hover:-translate-y-1 hover:scale-110 duration-300 w-[70%] py-2'/>
-        <div className="Header ">Please View Website On Desktop</div>
-        <div className="Header ">mobile should be finished soon</div>
+      <div className="MobileTest lg:hidden xl:hidden 2xl:hidden px-4 py-2"> 
+        <MobileNavbar />
+        <MobileHeader />
+        <MobileTool />
       </div>
     </div>
   )
