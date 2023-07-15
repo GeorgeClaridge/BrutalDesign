@@ -105,7 +105,7 @@ const Header = () => {
                   <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
                     C
                   </div>
-                  <div className='hover:-translate-y-2 duration-[400ms] hover:text-green0 hover:scale-110'>
+                  <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
                     L
                   </div>
                   <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
