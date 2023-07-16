@@ -13,7 +13,7 @@ const Header = () => {
 
           <div className="bg-white rounded-b-[20px] border-[2px] border-t-[0px] shadow-solid-primary">
             
-            <ul className="center py-8 px-10 text-xl font-bold list-none">
+            <ul className="py-8 px-10 text-xl font-bold list-none">
               <li className="flex pb-4">
                 <img src={FilePerson} alt="File Person" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
                 <div className='self-center hover:underline cursor-pointer'>

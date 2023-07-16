@@ -6,14 +6,14 @@ import { Background } from './assets'
 function App() {
 
   return (
-    <div className='bg-no-repeat bg-cover' style={{ backgroundImage: `url(${Background})` }}>
+    <div className="bg-no-repeat bg-cover" style={{ backgroundImage: `url(${Background})` }}>
       <div className="padding px-[4rem] pb-[3rem] hidden lg:block">
         <Navbar />
         <Header />
         <Tool />
       </div>
 
-      <div className="MobileTest lg:hidden xl:hidden 2xl:hidden px-4 py-2"> 
+      <div className="lg:hidden xl:hidden 2xl:hidden px-5"> 
         <MobileNavbar />
         <MobileHeader />
         <MobileTool />

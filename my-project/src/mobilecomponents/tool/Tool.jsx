@@ -2,7 +2,7 @@ import './tool.css';
 
 const Tool = () => {
   return (
-    <div className="Contatienr pt-12">
+    <div className="pt-12">
 
         <div className="bg-purple rounded-t-[20px] border-[2px] shadow-solid-primary py-2">
           <div className="text-2xl font-semibold flex justify-center">This Uses</div>
@@ -23,14 +23,14 @@ const Tool = () => {
           </div>
         </div>
 
-      <div className="pt-12">
+      <div className="pt-12 pb-4">
 
         <div className="bg-green rounded-t-[20px] border-[2px] shadow-solid-primary py-2">
           <div className="text-2xl font-semibold flex justify-center">Github</div>
         </div>
 
         <div className="bg-white rounded-b-[20px] border-[2px] border-t-[0px] shadow-solid-primary">
-          <div className="center py-6 px-8 text-xl font-bold list-none">
+          <div className="center p-4 text-xl font-bold list-none">
 
             <ul>
               <li className="flex justify-between py-2">
