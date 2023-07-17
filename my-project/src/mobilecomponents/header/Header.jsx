@@ -1,5 +1,4 @@
 import './header.css';
-import {Min, Full, Close} from './imports'
 
 const Header = () => {
   return (

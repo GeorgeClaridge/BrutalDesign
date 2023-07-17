@@ -1,5 +1,5 @@
 import './header.css';
-import {FilePerson, Min, Full, Close, Github, Linkedin, Figma} from './imports'
+import { Min, Full, Close, Github, Linkedin, Figma, About, Contact, Home, Project, Skills} from './imports'
 
 const Header = () => {
   return (
@@ -15,35 +15,35 @@ const Header = () => {
             
             <ul className="py-8 px-10 text-xl font-bold list-none">
               <li className="flex pb-4">
-                <img src={FilePerson} alt="File Person" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
+                <img src={Home} alt="Home" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
                 <div className='self-center hover:underline cursor-pointer'>
                   Home
                 </div>
               </li>
 
               <li className="flex py-4">
-                <img src={FilePerson} alt="File Person" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
+                <img src={About} alt="About" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
                 <div className='self-center hover:underline cursor-pointer'>
-                  About Me
+                  About
                 </div>
               </li>
 
               <li className="flex py-4">
-                <img src={FilePerson} alt="File Person" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
+                <img src={Skills} alt="Skills" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
                 <div className='self-center hover:underline cursor-pointer'>
-                  My Skills
+                  Skills
                 </div>
               </li>
 
               <li className="flex py-4">
-                <img src={FilePerson} alt="File Person" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
+                <img src={Project} alt="Project" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
                 <div className='self-center hover:underline cursor-pointer'>
                   Projects
                 </div>
               </li>
 
               <li className="flex py-4">
-                <img src={FilePerson} alt="File Person" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
+                <img src={Contact} alt="Contact" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
                 <div className='self-center hover:underline cursor-pointer'>
                   Contact
                 </div>
@@ -83,7 +83,7 @@ const Header = () => {
             <div className="HeaderContainer flex justify-between">
 
               <div className="Left">
-                <div className="Header text-5xl font-bold pt-6 flex justify-center">
+                <div className="Header text-5xl font-bold flex justify-center">
                   <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
                     G
                   </div>
