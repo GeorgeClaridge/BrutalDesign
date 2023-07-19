@@ -6,7 +6,7 @@ const ContactHeader = () => {
 
         <div className="Left">
           <div className="Header text-6xl font-bold">Contact</div>
-          <div className="SubHeader text-purple text-3xl font-bold pt-2">Neubrutalism</div>
+          <div className="SubHeader text-purple text-3xl font-bold pt-2">Subheader</div>
         </div>
 
         <div className="Right self-center">
