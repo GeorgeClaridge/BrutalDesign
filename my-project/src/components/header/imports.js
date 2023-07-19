@@ -9,6 +9,11 @@ import Contact from '../../assets/IconContact.svg'
 import Home from '../../assets/IconHome.svg'
 import Project from '../../assets/IconProject.svg'
 import Skills from '../../assets/IconSkills.svg'
+import HomeHeader from '../headercomponents/HomeHeader'
+import SkillHeader from '../headercomponents/SkillHeader'
+import AboutHeader from '../headercomponents/AboutHeader'
+import ContactHeader from '../headercomponents/ContactHeader'
+import ProjectHeader from '../headercomponents/ProjectHeader'
 
 
 export {
@@ -23,5 +28,9 @@ export {
     Home,
     Project,
     Skills,
-
+    HomeHeader,
+    SkillHeader,
+    AboutHeader,
+    ContactHeader,
+    ProjectHeader,
 }

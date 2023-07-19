@@ -1,12 +1,42 @@
 import './header.css';
-import { Min, Full, Close, Github, Linkedin, Figma, About, Contact, Home, Project, Skills} from './imports'
+import { Min, Full, Close, Github, Linkedin, Figma, About, Contact, Home, Project, Skills, HomeHeader, SkillHeader, AboutHeader, ContactHeader, ProjectHeader} from './imports';
+import { useState } from "react";
 
 const Header = () => {
+
+  const [Container, SetContainer] = useState(HomeHeader)
+  const [HeaderContainer, SetHeaderContainer] = useState('HOME')
+
+  const HomeButton = () => {
+    SetContainer(HomeHeader);
+    SetHeaderContainer('HOME');
+  };
+
+  const SkillButton = () => {
+    SetContainer(SkillHeader);
+    SetHeaderContainer('SKILLS');
+  };
+
+  const ProjectButton = () => {
+    SetContainer(ProjectHeader);
+    SetHeaderContainer('PROJECT');
+  };
+
+  const AboutButton = () => {
+    SetContainer(AboutHeader);
+    SetHeaderContainer('ABOUT');
+  };
+
+  const ContactButton = () => {
+    SetContainer(ContactHeader);
+    SetHeaderContainer('CONTACT');
+  };
+
   return (
     <div className="Contatienr flex flex-row justify-between">
 
       <div className="flex flex-col justify-between">
-        <div className="Container">
+        <div className="Container pb-6">
           <div className="bg-purple rounded-t-[20px] border-[2px] flex flex-row justify-center shadow-solid-primary py-2">
             <div className="center center text-2xl font-semibold"> Navbar</div>
           </div>
@@ -15,36 +45,36 @@ const Header = () => {
             
             <ul className="py-8 px-10 text-xl font-bold list-none">
               <li className="flex pb-4">
-                <img src={Home} alt="Home" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
-                <div className='self-center hover:underline cursor-pointer'>
+                <img onClick={HomeButton} src={Home} alt="Home" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
+                <div onClick={HomeButton} className='self-center hover:underline cursor-pointer'>
                   Home
                 </div>
               </li>
 
               <li className="flex py-4">
-                <img src={About} alt="About" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
-                <div className='self-center hover:underline cursor-pointer'>
+                <img onClick={AboutButton} src={About} alt="About" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
+                <div onClick={AboutButton} className='self-center hover:underline cursor-pointer'>
                   About
                 </div>
               </li>
 
               <li className="flex py-4">
-                <img src={Skills} alt="Skills" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
-                <div className='self-center hover:underline cursor-pointer'>
+                <img onClick={SkillButton} src={Skills} alt="Skills" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
+                <div onClick={SkillButton} className='self-center hover:underline cursor-pointer'>
                   Skills
                 </div>
               </li>
 
               <li className="flex py-4">
-                <img src={Project} alt="Project" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
-                <div className='self-center hover:underline cursor-pointer'>
+                <img onClick={ProjectButton} src={Project} alt="Project" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
+                <div onClick={ProjectButton} className='self-center hover:underline cursor-pointer'>
                   Projects
                 </div>
               </li>
 
               <li className="flex py-4">
-                <img src={Contact} alt="Contact" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
-                <div className='self-center hover:underline cursor-pointer'>
+                <img onClick={ContactButton} src={Contact} alt="Contact" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300'/>
+                <div onClick={ContactButton} className='self-center hover:underline cursor-pointer'>
                   Contact
                 </div>
               </li>
@@ -80,69 +110,7 @@ const Header = () => {
 
         <div className="bg-white rounded-b-[20px] border-[2px] border-t-[0px] shadow-solid-primary">
           <div className="Content p-12">
-            <div className="HeaderContainer flex justify-between">
-
-              <div className="Left">
-                <div className="Header text-5xl font-bold flex justify-center">
-                  <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-                    G
-                  </div>
-                  <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-                    E
-                  </div>
-                  <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-                    O
-                  </div>
-                  <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-                    R
-                  </div>
-                  <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-                    G
-                  </div>
-                  <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110 pr-2'>
-                    E
-                  </div>
-                  <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-                    C
-                  </div>
-                  <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-                    L
-                  </div>
-                  <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-                    A
-                  </div>
-                  <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-                    R
-                  </div>
-                  <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-                    I
-                  </div>
-                  <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-                    
-                  </div>
-                  <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-                    G
-                  </div>
-                  <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-                    E
-                  </div>
-                </div>
-
-                <div className="SubHeader text-purple text-3xl font-bold pt-2">Neubrutalism</div>
-              </div>
-
-              <div className="Right self-center">
-                Test
-              </div>
-
-
-            </div>
-
-            <div className="text text-xl font-bold font-IBMsans pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-            <div className="text text-xl font-bold font-IBMsans pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-            <div className="text text-xl font-bold font-IBMsans pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-            <div className="Line border-b-[2px] pt-6"></div>
-
+            {Container}
           </div>
         </div>
 
