@@ -1,5 +1,5 @@
 import './header.css';
-import { Min, Full, Close, Github, Linkedin, Figma, About, Contact, Home, Project, Skills, HomeHeader, SkillHeader, AboutHeader, ContactHeader, ProjectHeader} from './imports';
+import { Min, Full, Close, Github, Linkedin, Figma, About, Contact, Home, Project, Skills, HomeHeader, SkillHeader, TestHeader, ContactHeader, ProjectHeader} from './imports';
 import { useState } from "react";
 
 const Header = () => {
@@ -23,8 +23,8 @@ const Header = () => {
   };
 
   const AboutButton = () => {
-    SetContainer(AboutHeader);
-    SetHeaderContainer('ABOUT');
+    SetContainer(TestHeader);
+    SetHeaderContainer('TEST');
   };
 
   const ContactButton = () => {
@@ -52,13 +52,6 @@ const Header = () => {
               </li>
 
               <li className="flex py-4">
-                <img onClick={AboutButton} src={About} alt="About" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer'/>
-                <div onClick={AboutButton} className='self-center hover:underline cursor-pointer'>
-                  About
-                </div>
-              </li>
-
-              <li className="flex py-4">
                 <img onClick={SkillButton} src={Skills} alt="Skills" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer'/>
                 <div onClick={SkillButton} className='self-center hover:underline cursor-pointer'>
                   Skills
@@ -69,6 +62,13 @@ const Header = () => {
                 <img onClick={ProjectButton} src={Project} alt="Project" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer'/>
                 <div onClick={ProjectButton} className='self-center hover:underline cursor-pointer'>
                   Projects
+                </div>
+              </li>
+
+              <li className="flex py-4">
+                <img onClick={AboutButton} src={About} alt="About" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer'/>
+                <div onClick={AboutButton} className='self-center hover:underline cursor-pointer'>
+                  Testing
                 </div>
               </li>
 
