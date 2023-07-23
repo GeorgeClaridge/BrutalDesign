@@ -94,7 +94,7 @@ const Header = () => {
       <div className="w-[80%] pl-6">
 
         <div className="bg-green rounded-t-[20px] border-[2px] flex flex-row justify-between shadow-solid-primary py-2">
-          <div className="left pl-3 flex">
+          <div className="left pl-3 flex w-[8rem]">
             <div className="Circle h-[1.5rem] w-[1.5rem] bg-white rounded-full border-[2px] mr-1 my-auto"></div>
             <div className="Circle h-[1.5rem] w-[1.5rem] bg-white rounded-full border-[2px] my-auto"></div>
           </div>
