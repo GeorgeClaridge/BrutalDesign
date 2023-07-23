@@ -2,61 +2,53 @@ const HomeHeader = () => {
 
   return (
     <div>
-      <div className="HeaderContainer flex justify-between">
+      <div className="HeaderContainer">
 
-        <div className="Left">
-          <div className="Header text-6xl font-bold flex justify-center">
-            <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-              G
-            </div>
-            <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-              E
-            </div>
-            <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-              O
-            </div>
-            <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-              R
-            </div>
-            <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-              G
-            </div>
-            <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110 pr-2'>
-              E
-            </div>
-            <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-              C
-            </div>
-            <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-              L
-            </div>
-            <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-              A
-            </div>
-            <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-              R
-            </div>
-            <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-              I
-            </div>
-            <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-              
-            </div>
-            <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-              G
-            </div>
-            <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-              E
-            </div>
+        <div className="Header text-6xl font-bold flex justify-start">
+          <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+            G
           </div>
-
-          <div className="SubHeader text-purple text-3xl font-bold pt-2">Neubrutalism</div>
+          <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+            E
+          </div>
+          <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+            O
+          </div>
+          <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+            R
+          </div>
+          <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+            G
+          </div>
+          <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110 pr-2'>
+            E
+          </div>
+          <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+            C
+          </div>
+          <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+            L
+          </div>
+          <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+            A
+          </div>
+          <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+            R
+          </div>
+          <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+            I
+          </div>
+          <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+            D
+          </div>
+          <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+            G
+          </div>
+          <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+            E
+          </div>
         </div>
-
-        <div className="Right self-center">
-          Test
-        </div>
-
+        <div className="SubHeader text-purple text-3xl font-bold pt-2">Neubrutalism</div>
 
       </div>
 

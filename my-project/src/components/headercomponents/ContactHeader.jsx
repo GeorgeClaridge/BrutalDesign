@@ -2,17 +2,28 @@ const ContactHeader = () => {
 
   return (
     <div>
-      <div className="HeaderContainer flex justify-between">
-
-        <div className="Left">
-          <div className="Header text-6xl font-bold">Contact</div>
-          <div className="SubHeader text-purple text-3xl font-bold pt-2">Subheader</div>
+      <div className="Header text-6xl font-bold flex justify-start">
+        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+          C
         </div>
-
-        <div className="Right self-center">
-          Test
+        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+          O
         </div>
-
+        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+          N
+        </div>
+        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+          T
+        </div>
+        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+          A
+        </div>
+        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+          C
+        </div>
+        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
+          T
+        </div>
       </div>
 
       <div className="text text-xl font-bold font-IBMsans pt-3">CONTENT</div>
