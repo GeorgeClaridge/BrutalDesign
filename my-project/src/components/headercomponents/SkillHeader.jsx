@@ -42,7 +42,7 @@ const SkillHeader = () => {
 
         <li className="pt-3">
           <div className="Header text text-2xl font-bold font-IBMsans">Figma: Design and Prototypes</div>
-          <div className="Example text-xl text-purple">Example: BlankTempalte, Neubrutalism</div>
+          <div className="Example text-xl text-purple">Example: BlankTemplate, Neubrutalism</div>
         </li>
 
         <li className="pt-3">

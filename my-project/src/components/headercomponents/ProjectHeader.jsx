@@ -35,7 +35,7 @@ const ProjectHeader = () => {
               <div className="center text-2xl font-semibold">Neubrutalism</div>
             </div>
 
-            <div className="Content rounded-b-[20px] border-[2px] border-t-0 p-5">
+            <div className="Content rounded-b-[20px] border-[2px] border-t-0 p-5 h-[90%]">
               <div className="Header text-2xl text-purple">React - Tailwind</div>
 
               <div className="Text pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
@@ -49,7 +49,7 @@ const ProjectHeader = () => {
               <div className="center text-2xl font-semibold">Figma Layout</div>
             </div>
 
-            <div className="Content rounded-b-[20px] border-[2px] border-t-0 p-5">
+            <div className="Content rounded-b-[20px] border-[2px] border-t-0 p-5 h-[90%]">
               <div className="Header text-2xl text-purple">React - Tailwind</div>
 
               <div className="Text pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
@@ -63,7 +63,7 @@ const ProjectHeader = () => {
               <div className="center text-2xl font-semibold">Friends App</div>
             </div>
 
-            <div className="Content rounded-b-[20px] border-[2px] border-t-0 p-5">
+            <div className="Content rounded-b-[20px] border-[2px] border-t-0 p-5 h-[90%]">
               <div className="Header text-2xl text-purple">RubyOnRails - Bootstrap</div>
 
               <div className="Text pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
