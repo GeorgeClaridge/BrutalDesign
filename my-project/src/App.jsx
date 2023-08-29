@@ -1,6 +1,6 @@
 import './App.css'
 import { Navbar,Tool, Header } from './components'
-import { MobileHeader, MobileNavbar, MobileTool } from './mobilecomponents'
+import { MobileHeader, MobileNavbar, MobileTool, MobileInfo } from './mobilecomponents'
 import { Background } from './assets'
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
       <div className="lg:hidden xl:hidden 2xl:hidden px-5"> 
         <MobileNavbar />
         <MobileHeader />
+        <MobileInfo />
         <MobileTool />
       </div>
     </div>

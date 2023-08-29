@@ -5,7 +5,7 @@ const Tool = () => {
     <div className="pt-12">
 
         <div className="bg-purple rounded-t-[20px] border-[2px] shadow-solid-primary py-2">
-          <div className="text-2xl font-semibold flex justify-center">This Uses</div>
+          <div className="text-2xl font-semibold flex justify-center">TOOLS USED</div>
         </div>
 
         <div className="bg-white rounded-b-[20px] border-[2px] border-t-[0px] shadow-solid-primary">
@@ -26,7 +26,7 @@ const Tool = () => {
       <div className="pt-12 pb-4">
 
         <div className="bg-green rounded-t-[20px] border-[2px] shadow-solid-primary py-2">
-          <div className="text-2xl font-semibold flex justify-center">Github</div>
+          <div className="text-2xl font-semibold flex justify-center">GITHUB</div>
         </div>
 
         <div className="bg-white rounded-b-[20px] border-[2px] border-t-[0px] shadow-solid-primary">

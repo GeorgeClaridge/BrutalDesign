@@ -1,0 +1,52 @@
+import './info.css';
+
+const Info = () => {
+  return (
+    <div className="pt-12">
+
+        <div className="bg-purple rounded-t-[20px] border-[2px] shadow-solid-primary py-2">
+          <div className="text-2xl font-semibold flex justify-center">SKILLS</div>
+        </div>
+
+        <div className="bg-white rounded-b-[20px] border-[2px] border-t-[0px] shadow-solid-primary">
+          <div className="Content p-4">
+
+            <div className="Header text-xl font-bold pt-6">Figma - <span className='text-purple'>Design Tool</span></div>
+            <div className="Paragraph font-IBMsans font-bold text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </div>
+
+            <div className="Header text-xl font-bold pt-6">React - <span className='text-purple'>JavaScript Library</span></div>
+            <div className="Paragraph font-IBMsans font-bold text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </div>
+
+            <div className="Header text-xl font-bold pt-6">Tailwind - <span className='text-purple'>CSS Framework</span></div>
+            <div className="Paragraph font-IBMsans font-bold text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </div>
+
+          </div>
+        </div>
+
+      <div className="pt-12 pb-4">
+
+        <div className="bg-green rounded-t-[20px] border-[2px] shadow-solid-primary py-2">
+          <div className="text-2xl font-semibold flex justify-center">CONTACT</div>
+        </div>
+
+        <div className="bg-white rounded-b-[20px] border-[2px] border-t-[0px] shadow-solid-primary">
+          <div className="Content p-4">
+
+            <div className="Header text-xl font-bold pt-6">Figma - <span className='text-purple'>Design Tool</span></div>
+            <div className="Paragraph font-IBMsans font-bold text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </div>
+
+            <div className="Header text-xl font-bold pt-6">React - <span className='text-purple'>JavaScript Library</span></div>
+            <div className="Paragraph font-IBMsans font-bold text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </div>
+
+            <div className="Header text-xl font-bold pt-6">Tailwind - <span className='text-purple'>CSS Framework</span></div>
+            <div className="Paragraph font-IBMsans font-bold text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  )
+}
+export default Info
