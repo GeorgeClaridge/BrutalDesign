@@ -2,34 +2,10 @@ const ProjectHeader = () => {
 
   return (
     <div>
-      <div className="Header text-6xl font-bold flex justify-start">
-        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-          P
-        </div>
-        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-          R
-        </div>
-        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-          O
-        </div>
-        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-          J
-        </div>
-        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-          E
-        </div>
-        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-          C
-        </div>
-        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-          T
-        </div>
-        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-          S
-        </div>
-      </div>
+      <div className="PlaceHolder"></div>
 
-      <div className="flex justify-between pt-3">
+      <div className="flex justify-between">
+
           <div className="w-[30%]">
             <div className="bg-purple rounded-t-[20px] border-[2px] flex flex-row justify-center py-2">
               <div className="center text-2xl font-semibold">Neubrutalism</div>
@@ -73,7 +49,6 @@ const ProjectHeader = () => {
           </div>
 
       </div>
-
     </div>
   )
 }

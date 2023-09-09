@@ -2,55 +2,95 @@ const SkillHeader = () => {
 
   return (
     <div>
+      <div className="PlaceHolder"></div>
+      
+      <div className="flex justify-between">
+          <div className="w-[30%]">
+            <div className="bg-purple rounded-t-[20px] border-[2px] flex flex-row justify-center py-2">
+              <div className="center text-2xl font-semibold">Front-End</div>
+            </div>
 
-      <div className="Header text-6xl font-bold flex justify-start">
-        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-          S
-        </div>
-        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-          K
-        </div>
-        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-          I
-        </div>
-        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-          L
-        </div>
-        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-          L
-        </div>
-        <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
-          S
-        </div>
+            <div className="Content rounded-b-[20px] border-[2px] border-t-0 p-5 h-[90%]">
+
+              <div className="">
+                <div className="Header text-xl font-bold">Skill Name</div>
+                <div className="Link font-IBMsans">Test Text</div>
+              </div>
+
+              <div className="pt-3">
+                <div className="Header text-xl font-bold">Skill Name</div>
+                <div className="Link font-IBMsans">Test Text</div>
+              </div>
+              <div className="pt-3">
+                <div className="Header text-xl font-bold">Skill Name</div>
+                <div className="Link font-IBMsans">Test Text</div>
+              </div>
+              <div className="pt-3">
+                <div className="Header text-xl font-bold">Skill Name</div>
+                <div className="Link font-IBMsans">Test Text</div>
+              </div>
+
+            </div>
+          </div>
+
+          <div className="w-[30%]">
+            <div className="bg-purple rounded-t-[20px] border-[2px] flex flex-row justify-center py-2">
+                <div className="center text-2xl font-semibold">Back-End</div>
+              </div>
+
+              <div className="Content rounded-b-[20px] border-[2px] border-t-0 p-5 h-[90%]">
+
+                <div className="">
+                  <div className="Header text-xl font-bold">Skill Name</div>
+                  <div className="Link font-IBMsans">Test Text</div>
+                </div>
+
+                <div className="pt-3">
+                  <div className="Header text-xl font-bold">Skill Name</div>
+                  <div className="Link font-IBMsans">Test Text</div>
+                </div>
+                <div className="pt-3">
+                  <div className="Header text-xl font-bold">Skill Name</div>
+                  <div className="Link font-IBMsans">Test Text</div>
+                </div>
+                <div className="pt-3">
+                  <div className="Header text-xl font-bold">Skill Name</div>
+                  <div className="Link font-IBMsans">Test Text</div>
+                </div>
+
+              </div>
+          </div>
+
+          <div className="w-[30%]">
+            <div className="bg-purple rounded-t-[20px] border-[2px] flex flex-row justify-center py-2">
+                <div className="center text-2xl font-semibold">Design</div>
+              </div>
+
+              <div className="Content rounded-b-[20px] border-[2px] border-t-0 p-5 h-[90%]">
+
+                <div className="">
+                  <div className="Header text-xl font-bold">Skill Name</div>
+                  <div className="Link font-IBMsans">Test Text</div>
+                </div>
+
+                <div className="pt-3">
+                  <div className="Header text-xl font-bold">Skill Name</div>
+                  <div className="Link font-IBMsans">Test Text</div>
+                </div>
+                <div className="pt-3">
+                  <div className="Header text-xl font-bold">Skill Name</div>
+                  <div className="Link font-IBMsans">Test Text</div>
+                </div>
+                <div className="pt-3">
+                  <div className="Header text-xl font-bold">Skill Name</div>
+                  <div className="Link font-IBMsans">Test Text</div>
+                </div>
+
+              </div>
+          </div>
+
       </div>
 
-      <ul>
-        <li className="pt-3">
-          <div className="Header text text-2xl font-bold font-IBMsans">SQL: MySQL and SQLite</div>
-          <div className="Example text-xl text-purple">Example: HealthTech SQL</div>
-        </li>
-
-        <li className="pt-3">
-          <div className="Header text text-2xl font-bold font-IBMsans">React: Website and App Development</div>
-          <div className="Example text-xl text-purple">Example: Figma Layout</div>
-        </li>
-
-        <li className="pt-3">
-          <div className="Header text text-2xl font-bold font-IBMsans">Ruby On Rails: Front end and Crud</div>
-          <div className="Example text-xl text-purple">Example: Devise Login</div>
-        </li>
-
-        <li className="pt-3">
-          <div className="Header text text-2xl font-bold font-IBMsans">Figma: Design and Prototypes</div>
-          <div className="Example text-xl text-purple">Example: BlankTemplate, Neubrutalism</div>
-        </li>
-
-        <li className="pt-3">
-          <div className="Header text text-2xl font-bold font-IBMsans">IT Support: Communication and Helpdesk</div>
-        </li>
-      </ul>
-
-      <div className="Line border-b-[2px] pt-6"></div>
     </div>
   )
 }

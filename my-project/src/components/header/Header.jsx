@@ -46,35 +46,35 @@ const Header = () => {
             <ul className="py-8 px-10 text-xl font-bold list-none">
               <li className="flex pb-4">
                 <img onClick={HomeButton} src={Home} alt="Home" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer'/>
-                <div onClick={HomeButton} className='self-center hover:underline cursor-pointer'>
+                <div onClick={HomeButton} className='self-center underline-offset-4 hover:underline cursor-pointer'>
                   Home
                 </div>
               </li>
 
               <li className="flex py-4">
                 <img onClick={SkillButton} src={Skills} alt="Skills" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer'/>
-                <div onClick={SkillButton} className='self-center hover:underline cursor-pointer'>
+                <div onClick={SkillButton} className='self-center underline-offset-4 hover:underline cursor-pointer'>
                   Skills
                 </div>
               </li>
 
               <li className="flex py-4">
                 <img onClick={ProjectButton} src={Project} alt="Project" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer'/>
-                <div onClick={ProjectButton} className='self-center hover:underline cursor-pointer'>
+                <div onClick={ProjectButton} className='self-center underline-offset-4 hover:underline cursor-pointer'>
                   Projects
                 </div>
               </li>
 
               <li className="flex py-4">
                 <img onClick={AboutButton} src={About} alt="About" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer'/>
-                <div onClick={AboutButton} className='self-center hover:underline cursor-pointer'>
+                <div onClick={AboutButton} className='self-center underline-offset-4 hover:underline cursor-pointer'>
                   Testing
                 </div>
               </li>
 
               <li className="flex py-4">
                 <img onClick={ContactButton} src={Contact} alt="Contact" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer'/>
-                <div onClick={ContactButton} className='self-center hover:underline cursor-pointer'>
+                <div onClick={ContactButton} className='self-center underline-offset-4 hover:underline cursor-pointer'>
                   Contact
                 </div>
               </li>
@@ -109,7 +109,7 @@ const Header = () => {
         </div>
 
         <div className="bg-white rounded-b-[20px] border-[2px] border-t-[0px] shadow-solid-primary">
-          <div className="Content p-12">
+          <div className="Content p-12 min-h-[40rem]">
             {Container}
           </div>
         </div>
