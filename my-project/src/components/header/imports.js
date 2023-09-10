@@ -14,6 +14,7 @@ import SkillHeader from '../headercomponents/SkillHeader'
 import TestHeader from '../headercomponents/TestHeader'
 import ContactHeader from '../headercomponents/ContactHeader'
 import ProjectHeader from '../headercomponents/ProjectHeader'
+import RudeHeader from '../headercomponents/RudeHeader'
 
 
 export {
@@ -33,4 +34,5 @@ export {
     TestHeader,
     ContactHeader,
     ProjectHeader,
+    RudeHeader,
 }

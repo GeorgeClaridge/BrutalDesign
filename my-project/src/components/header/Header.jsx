@@ -1,5 +1,5 @@
 import './header.css';
-import { Min, Full, Close, Github, Linkedin, Figma, About, Contact, Home, Project, Skills, HomeHeader, SkillHeader, TestHeader, ContactHeader, ProjectHeader} from './imports';
+import { Min, Full, Close, Github, Linkedin, Figma, About, Contact, Home, Project, Skills, HomeHeader, SkillHeader, TestHeader, ContactHeader, ProjectHeader, RudeHeader} from './imports';
 import { useState } from "react";
 
 const Header = () => {
@@ -30,6 +30,11 @@ const Header = () => {
   const ContactButton = () => {
     SetContainer(ContactHeader);
     SetHeaderContainer('CONTACT');
+  };
+
+  const RudeButton = () => {
+    SetContainer(RudeHeader);
+    SetHeaderContainer('THAT WAS RUDE');
   };
 
   return (
@@ -104,7 +109,7 @@ const Header = () => {
           <div className="right flex justify-between w-[8rem] pr-3">
             <img src={Min} alt="Min" className='Icon self-center w-4'/>
             <img src={Full} alt="Full" className='Icon self-center w-4'/>
-            <img src={Close} alt="Close" className='Icon self-center w-6'/>
+            <img onClick={RudeButton} src={Close} alt="Close" className='Icon self-center w-6 cursor-pointer'/>
           </div>
         </div>
 
