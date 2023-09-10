@@ -54,7 +54,7 @@ const HomeHeader = () => {
         <div className="SubHeader text-purple text-3xl font-bold pt-2 text-center">Neubrutalism</div>
 
         <div className="flex justify-center">
-          <img src={Construct} alt="Home" className='Icon self-center w-[30%] pt-5'/>
+          <img src={Construct} alt="Home" className='Icon self-center w-[24rem] pt-5'/>
         </div>
 
       </div>

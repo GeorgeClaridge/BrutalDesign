@@ -6,7 +6,7 @@ const ProjectHeader = () => {
 
       <div className="flex justify-between">
 
-          <div className="w-[30%]">
+          <div className="w-[32%]">
             <div className="bg-purple rounded-t-[20px] border-[2px] flex flex-row justify-center py-2">
               <div className="center text-2xl font-semibold">Neubrutalism</div>
             </div>
@@ -20,7 +20,7 @@ const ProjectHeader = () => {
             </div>
           </div>
 
-          <div className="w-[30%]">
+          <div className="w-[32%]">
             <div className="bg-purple rounded-t-[20px] border-[2px] flex flex-row justify-center py-2">
               <div className="center text-2xl font-semibold">Figma Layout</div>
             </div>
@@ -34,7 +34,7 @@ const ProjectHeader = () => {
             </div>
           </div>
 
-          <div className="w-[30%]">
+          <div className="w-[32%]">
             <div className="bg-purple rounded-t-[20px] border-[2px] flex flex-row justify-center py-2">
               <div className="center text-2xl font-semibold">Friends App</div>
             </div>
