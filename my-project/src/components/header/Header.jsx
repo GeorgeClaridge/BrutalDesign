@@ -1,5 +1,5 @@
 import './header.css';
-import { Min, Full, Close, Github, Linkedin, Figma, About, Contact, Home, Project, Skills, HomeHeader, SkillHeader, TestHeader, ContactHeader, ProjectHeader, RudeHeader} from './imports';
+import { Min, Full, Close, Github, Linkedin, Figma, About, Contact, Home, Project, Skills, HomeHeader, SkillHeader, AboutHeader, ContactHeader, ProjectHeader, RudeHeader} from './imports';
 import { useState } from "react";
 
 const Header = () => {
@@ -23,8 +23,8 @@ const Header = () => {
   };
 
   const AboutButton = () => {
-    SetContainer(TestHeader);
-    SetHeaderContainer('TEST');
+    SetContainer(AboutHeader);
+    SetHeaderContainer('About');
   };
 
   const ContactButton = () => {
@@ -40,7 +40,7 @@ const Header = () => {
   return (
     <div className="Contatienr flex flex-row justify-between">
 
-      <div className="flex flex-col justify-between">
+      <div className="flex flex-col">
         <div className="Container pb-6">
           <div className="bg-purple rounded-t-[20px] border-[2px] flex flex-row justify-center shadow-solid-primary py-2">
             <div className="center text-2xl font-semibold"> Navbar</div>
@@ -51,8 +51,15 @@ const Header = () => {
             <ul className="py-8 px-10 text-xl font-bold list-none">
               <li className="flex pb-4">
                 <img onClick={HomeButton} src={Home} alt="Home" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer'/>
-                <div onClick={HomeButton} className='self-center underline-offset-4 hover:underline cursor-pointer'>
+                <div onClick={HomeButton} className='self-center underline-offset-4 hover:underline duration-500 cursor-pointer'>
                   Home
+                </div>
+              </li>
+
+              <li className="flex py-4">
+                <img onClick={AboutButton} src={About} alt="About" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer'/>
+                <div onClick={AboutButton} className='self-center underline-offset-4 hover:underline cursor-pointer'>
+                  About
                 </div>
               </li>
 
@@ -67,13 +74,6 @@ const Header = () => {
                 <img onClick={ProjectButton} src={Project} alt="Project" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer'/>
                 <div onClick={ProjectButton} className='self-center underline-offset-4 hover:underline cursor-pointer'>
                   Projects
-                </div>
-              </li>
-
-              <li className="flex py-4">
-                <img onClick={AboutButton} src={About} alt="About" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer'/>
-                <div onClick={AboutButton} className='self-center underline-offset-4 hover:underline cursor-pointer'>
-                  Testing
                 </div>
               </li>
 
