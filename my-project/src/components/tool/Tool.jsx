@@ -16,13 +16,13 @@ const Tool = () => {
           <div className="Content p-12">
 
             <div className="Header text-3xl font-semibold pt-6">Figma - <span className='text-purple'>Design Tool</span></div>
-            <div className="Paragraph font-IBMsans font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </div>
+            <div className="Paragraph font-IBMsans font-bold">This website was ideated using Figma starting with a concept and developed over time with neubrutalism in mind. Once I had a base design I began to create images and content for the website. All of this can be found in the Figma file.</div>
 
             <div className="Header text-3xl font-semibold pt-6">React - <span className='text-purple'>JavaScript Library</span></div>
-            <div className="Paragraph font-IBMsans font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </div>
+            <div className="Paragraph font-IBMsans font-bold">I choose React as my javascript library for this project due to wanting to learn more about React’s hooks as I have mainly used Ruby On Rails in the past. I wanted to keep this website as an educational project.</div>
 
             <div className="Header text-3xl font-semibold pt-6">Tailwind - <span className='text-purple'>CSS Framework</span></div>
-            <div className="Paragraph font-IBMsans font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </div>
+            <div className="Paragraph font-IBMsans font-bold">I picked Tailwind as my css framework due to it being highly customisable and allowing me to use PurgeCss which keeps my file sizes and load time small. This allows me to create website with less restrictions in the future.</div>
 
           </div>
         </div>

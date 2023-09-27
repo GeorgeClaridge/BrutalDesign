@@ -13,21 +13,19 @@ const SkillHeader = () => {
             <div className="Content rounded-b-[20px] border-[2px] border-t-0 p-5 h-[90%]">
 
               <div className="">
-                <div className="Header text-xl font-bold">Skill Name</div>
-                <div className="Link font-IBMsans">Test Text</div>
+                <div className="Header text-xl font-bold">- React & Ruby On Rails</div>
               </div>
 
               <div className="pt-3">
-                <div className="Header text-xl font-bold">Skill Name</div>
-                <div className="Link font-IBMsans">Test Text</div>
+                <div className="Header text-xl font-bold">- Tailwind & Bootstrap</div>
               </div>
+
               <div className="pt-3">
-                <div className="Header text-xl font-bold">Skill Name</div>
-                <div className="Link font-IBMsans">Test Text</div>
+                <div className="Header text-xl font-bold">- JavaScript & TypeScript</div>
               </div>
+
               <div className="pt-3">
-                <div className="Header text-xl font-bold">Skill Name</div>
-                <div className="Link font-IBMsans">Test Text</div>
+                <div className="Header text-xl font-bold">- Git Version Control</div>
               </div>
 
             </div>
@@ -41,21 +39,19 @@ const SkillHeader = () => {
               <div className="Content rounded-b-[20px] border-[2px] border-t-0 p-5 h-[90%]">
 
                 <div className="">
-                  <div className="Header text-xl font-bold">Skill Name</div>
-                  <div className="Link font-IBMsans">Test Text</div>
+                  <div className="Header text-xl font-bold">- Ruby On Rails CRUD</div>
                 </div>
 
                 <div className="pt-3">
-                  <div className="Header text-xl font-bold">Skill Name</div>
-                  <div className="Link font-IBMsans">Test Text</div>
+                  <div className="Header text-xl font-bold">- Data Structures</div>
                 </div>
+
                 <div className="pt-3">
-                  <div className="Header text-xl font-bold">Skill Name</div>
-                  <div className="Link font-IBMsans">Test Text</div>
+                  <div className="Header text-xl font-bold">- APIs</div>
                 </div>
+
                 <div className="pt-3">
-                  <div className="Header text-xl font-bold">Skill Name</div>
-                  <div className="Link font-IBMsans">Test Text</div>
+                  <div className="Header text-xl font-bold">- Networking</div>
                 </div>
 
               </div>
@@ -69,21 +65,19 @@ const SkillHeader = () => {
               <div className="Content rounded-b-[20px] border-[2px] border-t-0 p-5 h-[90%]">
 
                 <div className="">
-                  <div className="Header text-xl font-bold">Skill Name</div>
-                  <div className="Link font-IBMsans">Test Text</div>
+                  <div className="Header text-xl font-bold">- Figma</div>
                 </div>
 
                 <div className="pt-3">
-                  <div className="Header text-xl font-bold">Skill Name</div>
-                  <div className="Link font-IBMsans">Test Text</div>
+                  <div className="Header text-xl font-bold">- Responsive Web Design</div>
                 </div>
+
                 <div className="pt-3">
-                  <div className="Header text-xl font-bold">Skill Name</div>
-                  <div className="Link font-IBMsans">Test Text</div>
+                  <div className="Header text-xl font-bold">- Graphic Design</div>
                 </div>
+                
                 <div className="pt-3">
-                  <div className="Header text-xl font-bold">Skill Name</div>
-                  <div className="Link font-IBMsans">Test Text</div>
+                  <div className="Header text-xl font-bold">- Typography</div>
                 </div>
 
               </div>
