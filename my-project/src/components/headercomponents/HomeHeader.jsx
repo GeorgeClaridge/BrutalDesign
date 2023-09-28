@@ -6,7 +6,7 @@ const HomeHeader = () => {
     <div>
       <div className="HeaderContainer">
 
-        <div className="Header text-6xl font-bold flex justify-center">
+        <div className="text-6xl font-bold flex justify-center">
           <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
             G
           </div>
@@ -51,7 +51,7 @@ const HomeHeader = () => {
           </div>
         </div>
 
-        <div className="SubHeader text-purple text-3xl font-bold pt-2 text-center">Neubrutalism</div>
+        <div className="text-purple text-3xl font-bold pt-2 text-center">Neubrutalism Project</div>
 
         <div className="flex justify-center">
           <img src={Mascot} alt="Home" className='Icon self-center w-[24rem] pt-5'/>

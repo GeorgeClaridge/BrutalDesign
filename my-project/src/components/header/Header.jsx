@@ -98,15 +98,15 @@ const Header = () => {
 
       <div className="w-[80%] pl-6">
 
-        <div className="bg-green rounded-t-[20px] border-[2px] flex flex-row justify-between shadow-solid-primary py-2">
-          <div className="left pl-3 flex w-[8rem]">
+        <div className="bg-green rounded-t-[20px] border-[2px] flex flex-row justify-between shadow-solid-primary py-2 ">
+          <div className="left pl-4 flex w-[8rem]">
             <div className="Circle h-[1.5rem] w-[1.5rem] bg-white rounded-full border-[2px] mr-1 my-auto"></div>
             <div className="Circle h-[1.5rem] w-[1.5rem] bg-white rounded-full border-[2px] my-auto"></div>
           </div>
 
           <div className="center text-2xl font-semibold">{HeaderContainer}</div>
 
-          <div className="right flex justify-between w-[8rem] pr-3">
+          <div className="right flex justify-between w-[8rem] pr-4">
             <img src={Min} alt="Min" className='Icon self-center w-4'/>
             <img src={Full} alt="Full" className='Icon self-center w-4'/>
             <img onClick={RudeButton} src={Close} alt="Close" className='Icon self-center w-6 cursor-pointer'/>

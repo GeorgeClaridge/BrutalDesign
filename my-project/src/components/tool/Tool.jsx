@@ -13,9 +13,9 @@ const Tool = () => {
         </div>
 
         <div className="bg-white rounded-b-[20px] border-[2px] border-t-[0px] shadow-solid-primary">
-          <div className="Content p-12">
+          <div className="Content py-6 px-8">
 
-            <div className="Header text-3xl font-semibold pt-6">Figma - <span className='text-purple'>Design Tool</span></div>
+            <div className="Header text-3xl font-semibold">Figma - <span className='text-purple'>Design Tool</span></div>
             <div className="Paragraph font-IBMsans font-bold">This website was ideated using Figma starting with a concept and developed over time with neubrutalism in mind. Once I had a base design I began to create images and content for the website. All of this can be found in the Figma file.</div>
 
             <div className="Header text-3xl font-semibold pt-6">React - <span className='text-purple'>JavaScript Library</span></div>
@@ -47,7 +47,7 @@ const Tool = () => {
           <div className="center py-6 px-8 text-xl font-bold list-none">
 
             <ul>
-              <li className="flex justify-between py-2">
+              <li className="flex justify-between pb-2">
                 <div className="Header">
                   <a target='_blank'rel='noopener noreferrer' href="https://github.com/GeorgeClaridge/figma-plugin" className='text-xl hover:underline cursor-pointer'>React Figma Template </a>
                   <div className="SubHeader text-base text-purple">React - Tailwind - Vite</div>

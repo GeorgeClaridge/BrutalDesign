@@ -5,7 +5,7 @@ const ContactHeader = () => {
     <div className="flex justify-center">
 
       <div className="flex flex-col text-center">
-        <div className="Circle rounded-full w-[15rem] h-[15rem] bg-purple m-auto"></div>
+        <div className="rounded-full w-[15rem] h-[15rem] bg-purple m-auto"></div>
         <div className="text-4xl font-bold pt-3 tracking-tight">George Claridge</div>
         <div className="text-2xl font-bold text-purple pt-2">LETS TALK</div>
         <div>Email: glgclaridge@gmail.com</div>
