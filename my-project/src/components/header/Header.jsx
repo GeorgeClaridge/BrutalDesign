@@ -1,5 +1,5 @@
 import './header.css';
-import { Min, Full, Close, Github, Linkedin, Figma, About, Contact, Home, Project, Skills, HomeHeader, SkillHeader, AboutHeader, ContactHeader, ProjectHeader, RudeHeader} from './imports';
+import { Min, Full, Close, Github, Linkedin, Figma, About, Contact, Home, Project, Skills, HomeHeader, SkillHeader, AboutHeader, ContactHeader, ProjectHeader, RudeHeader } from './imports';
 import { useState } from "react";
 
 const Header = () => {

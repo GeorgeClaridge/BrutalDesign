@@ -1,4 +1,4 @@
-import {Construct, Mascot} from './imports';
+import {Mascot,} from './imports';
 
 const HomeHeader = () => {
 
