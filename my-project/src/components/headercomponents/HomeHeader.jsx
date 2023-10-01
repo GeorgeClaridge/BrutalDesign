@@ -4,7 +4,7 @@ const HomeHeader = () => {
 
   return (
     <div>
-      <div className="HeaderContainer">
+      <div className="">
 
         <div className="text-6xl font-bold flex justify-center">
           <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>

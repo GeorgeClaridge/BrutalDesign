@@ -24,7 +24,7 @@ const Header = () => {
 
   const AboutButton = () => {
     SetContainer(AboutHeader);
-    SetHeaderContainer('About');
+    SetHeaderContainer('ABOUT');
   };
 
   const ContactButton = () => {

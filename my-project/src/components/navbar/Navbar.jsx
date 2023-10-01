@@ -6,13 +6,13 @@ const Navbar = () => {
   
     <div className="flex flex-row justify-between py-6">
 
-      <div className="Logo flex">
-        <div className="Logo">
+      <div className="flex">
+        <div className="">
           <img src={Logo} alt="Logo" className='Logo self-center w-24'/>
         </div>
-        <div className="Brand self-center text-xl font-bold text-purple pl-4">
-          <div className="test">Neubrutalism</div>
-          <div className="test">Project</div>
+        <div className="self-center text-xl font-bold text-purple pl-4">
+          <div className="">Neubrutalism</div>
+          <div className="">Project</div>
         </div>
       </div>
 

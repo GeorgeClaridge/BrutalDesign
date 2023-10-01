@@ -8,11 +8,11 @@ const ProjectHeader = () => {
 
           <div className="">
             <div className="bg-purple rounded-t-[20px] border-[2px] flex flex-row justify-center py-2">
-              <div className="center text-2xl font-semibold">Neubrutalism</div>
+              <div className="text-2xl font-semibold">Neubrutalism</div>
             </div>
 
             <div className="rounded-b-[20px] border-[2px] border-t-0 p-5 h-[90%]">
-              <div className="Header text-2xl text-purple">React - Tailwind</div>
+              <div className="text-2xl text-purple">React - Tailwind</div>
 
               <div className="Text pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
 
