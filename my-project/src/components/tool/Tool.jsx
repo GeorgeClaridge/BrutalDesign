@@ -15,13 +15,13 @@ const Tool = () => {
         <div className="bg-white rounded-b-[20px] border-[2px] border-t-[0px] shadow-solid-primary">
           <div className="Content py-6 px-8">
 
-            <div className="Header text-3xl font-bold font-IBMmono">Figma - <span className='text-purple'>Design Tool</span></div>
+            <div className="Header text-2xl font-bold font-IBMmono">Figma - <span className='text-purple'>Design Tool</span></div>
             <div className="Paragraph font-IBMsans text-lg pt-1 leading-8">This website was ideated using Figma starting with a concept and developed over time with neubrutalism in mind. Once I had a base design I began to create images and content for the website. All of this can be found in the Figma file.</div>
 
-            <div className="Header text-3xl font-bold pt-6 font-IBMmono">React - <span className='text-purple'>JavaScript Library</span></div>
+            <div className="Header text-2xl font-bold pt-6 font-IBMmono">React - <span className='text-purple'>JavaScript Library</span></div>
             <div className="Paragraph font-IBMsans text-lg pt-1 leading-8">I choose React as my javascript library for this project as i wanted to learn more about React’s hooks. I have mainly used Ruby On Rails in the past and wanted to keep this website as an educational project so i could learn more.</div>
 
-            <div className="Header text-3xl font-bold pt-6 font-IBMmono">Tailwind - <span className='text-purple'>CSS Framework</span></div>
+            <div className="Header text-2xl font-bold pt-6 font-IBMmono">Tailwind - <span className='text-purple'>CSS Framework</span></div>
             <div className="Paragraph font-IBMsans text-lg pt-1 leading-8">I picked Tailwind as my css framework due to it being highly customisable and allowing me to use PurgeCss which keeps my file sizes and load times small. This allows me to create website with less restrictions in the future.</div>
 
           </div>
@@ -89,7 +89,7 @@ const Tool = () => {
 
             </ul>
 
-            <a target='_blank'rel='noopener noreferrer' href="https://github.com/GeorgeClaridge?tab=repositories"><button className="rounded-lg bg-green border-[2px] shadow-solid-primary px-3 py-2 mt-2 mb-4 text-base hover:-translate-y-1 hover:scale-110 duration-300">All Repositories</button></a>
+            <a target='_blank'rel='noopener noreferrer' href="https://github.com/GeorgeClaridge?tab=repositories"><button className="rounded-lg bg-green border-[2px] shadow-solid-primary px-3 py-2 mt-2 mb-4 font-IBMmono text-base hover:-translate-y-1 hover:scale-110 duration-300">All Repositories</button></a>
 
           </div>
         </div>
