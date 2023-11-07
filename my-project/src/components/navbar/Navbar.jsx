@@ -6,7 +6,7 @@ const Navbar = () => {
   
     <div className="flex flex-row justify-between py-6">
 
-      <div className="flex">
+      <div className="flex font-IBMmono">
         <div className="">
           <img src={Logo} alt="Logo" className='Logo self-center w-24'/>
         </div>
@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="flex justify-between self-center text-xl font-bold bg-white border-[2px] shadow-solid-primary rounded-full py-4 px-5">
+      <div className="flex justify-between self-center text-xl font-bold bg-white border-[2px] shadow-solid-primary rounded-full py-4 px-5 IBMmono">
         <div className="Link self-center pl-[0.6rem] pr-3 text-purple">WEBSITE FILES:</div>
         <a target='_blank'rel='noopener noreferrer' href="https://github.com/GeorgeClaridge/BrutalDesign" className="Link self-center underline-offset-4 pr-3 hover:underline cursor-pointer">GITHUB</a>
         <a target='_blank'rel='noopener noreferrer' href="https://github.com/GeorgeClaridge/BrutalDesign"><img src={Github} alt="Github" className='Icon self-center w-8 mr-3 hover:-translate-y-1 hover:scale-110 duration-300'/></a>

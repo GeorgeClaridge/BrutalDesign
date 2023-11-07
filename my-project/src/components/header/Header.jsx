@@ -43,12 +43,12 @@ const Header = () => {
       <div className="flex flex-col">
         <div className="Container pb-6">
           <div className="bg-purple rounded-t-[20px] border-[2px] flex flex-row justify-center shadow-solid-primary py-2">
-            <div className="center text-2xl font-semibold"> Navbar</div>
+            <div className="center text-2xl font-bold font-IBMmono">NAVBAR</div>
           </div>
 
           <div className="bg-white rounded-b-[20px] border-[2px] border-t-[0px] shadow-solid-primary">
             
-            <ul className="py-8 px-10 text-xl font-bold list-none">
+            <ul className="py-8 px-10 text-xl font-bold list-none font-IBMmono">
               <li className="flex pb-4">
                 <img onClick={HomeButton} src={Home} alt="Home" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer'/>
                 <div onClick={HomeButton} className='self-center underline-offset-4 hover:underline duration-500 cursor-pointer'>
@@ -104,7 +104,7 @@ const Header = () => {
             <div className="Circle h-[1.5rem] w-[1.5rem] bg-white rounded-full border-[2px] my-auto"></div>
           </div>
 
-          <div className="center text-2xl font-semibold">{HeaderContainer}</div>
+          <div className="center text-2xl font-bold font-IBMmono">{HeaderContainer}</div>
 
           <div className="right flex justify-between w-[8rem] pr-4">
             <img src={Min} alt="Min" className='Icon self-center w-4'/>

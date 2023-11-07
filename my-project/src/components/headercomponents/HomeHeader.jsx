@@ -4,9 +4,9 @@ const HomeHeader = () => {
 
   return (
     <div>
-      <div className="">
+      <div className="font-IBMmono tracking-tighter">
 
-        <div className="text-6xl font-bold flex justify-center">
+        <div className="text-6xl font-bold flex justify-center ">
           <div className='hover:-translate-y-2 duration-[400ms] hover:text-green hover:scale-110'>
             G
           </div>

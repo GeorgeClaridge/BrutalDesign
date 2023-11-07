@@ -8,21 +8,21 @@ const Tool = () => {
 
         <div className="bg-green rounded-t-[20px] border-[2px] flex flex-row justify-center shadow-solid-primary py-2">
 
-          <div className="text-2xl font-semibold">What This Website Uses</div>
+          <div className="text-2xl font-bold font-IBMmono">What This Website Uses</div>
 
         </div>
 
         <div className="bg-white rounded-b-[20px] border-[2px] border-t-[0px] shadow-solid-primary">
           <div className="Content py-6 px-8">
 
-            <div className="Header text-3xl font-semibold">Figma - <span className='text-purple'>Design Tool</span></div>
-            <div className="Paragraph font-IBMsans font-bold">This website was ideated using Figma starting with a concept and developed over time with neubrutalism in mind. Once I had a base design I began to create images and content for the website. All of this can be found in the Figma file.</div>
+            <div className="Header text-3xl font-bold font-IBMmono">Figma - <span className='text-purple'>Design Tool</span></div>
+            <div className="Paragraph font-IBMsans text-lg pt-1 leading-8">This website was ideated using Figma starting with a concept and developed over time with neubrutalism in mind. Once I had a base design I began to create images and content for the website. All of this can be found in the Figma file.</div>
 
-            <div className="Header text-3xl font-semibold pt-6">React - <span className='text-purple'>JavaScript Library</span></div>
-            <div className="Paragraph font-IBMsans font-bold">I choose React as my javascript library for this project due to wanting to learn more about React’s hooks as I have mainly used Ruby On Rails in the past. I wanted to keep this website as an educational project.</div>
+            <div className="Header text-3xl font-bold pt-6 font-IBMmono">React - <span className='text-purple'>JavaScript Library</span></div>
+            <div className="Paragraph font-IBMsans text-lg pt-1 leading-8">I choose React as my javascript library for this project as i wanted to learn more about React’s hooks. I have mainly used Ruby On Rails in the past and wanted to keep this website as an educational project so i could learn more.</div>
 
-            <div className="Header text-3xl font-semibold pt-6">Tailwind - <span className='text-purple'>CSS Framework</span></div>
-            <div className="Paragraph font-IBMsans font-bold">I picked Tailwind as my css framework due to it being highly customisable and allowing me to use PurgeCss which keeps my file sizes and load time small. This allows me to create website with less restrictions in the future.</div>
+            <div className="Header text-3xl font-bold pt-6 font-IBMmono">Tailwind - <span className='text-purple'>CSS Framework</span></div>
+            <div className="Paragraph font-IBMsans text-lg pt-1 leading-8">I picked Tailwind as my css framework due to it being highly customisable and allowing me to use PurgeCss which keeps my file sizes and load times small. This allows me to create website with less restrictions in the future.</div>
 
           </div>
         </div>
@@ -36,7 +36,7 @@ const Tool = () => {
             <div className="Circle h-[1.5rem] w-[1.5rem] bg-white rounded-full border-[2px] my-auto"></div>
           </div>
 
-          <div className="text-2xl font-semibold">Github</div>
+          <div className="text-2xl font-bold font-IBMmono">Github</div>
 
           <div className="left pr-3 flex">
             <div className="Circle h-[1.5rem] w-[1.5rem] bg-white rounded-full border-[2px] my-auto"></div>
@@ -44,7 +44,7 @@ const Tool = () => {
         </div>
 
         <div className="bg-white rounded-b-[20px] border-[2px] border-t-[0px] shadow-solid-primary">
-          <div className="center py-6 px-8 text-xl font-bold list-none">
+          <div className="center py-6 px-8 text-xl font-bold font-IBMmono list-none">
 
             <ul>
               <li className="flex justify-between pb-2">

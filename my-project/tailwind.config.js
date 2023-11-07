@@ -16,8 +16,8 @@ export default {
     },
 
     fontFamily: {
-      'IBMsans': ['IBM Plex Sans'],
-      'IBMmono': ['IBM Plex Mono'],
+      'IBMsans': ['IBM Plex Sans', 'monospace'],
+      'IBMmono': ['IBM Plex Mono', 'sans-serif']
     },
 
     extend: {
