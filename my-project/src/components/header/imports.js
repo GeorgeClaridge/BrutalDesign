@@ -12,7 +12,7 @@ import Skills from '../../assets/IconSkills.svg'
 import HomeHeader from '../headercomponents/HomeHeader'
 import SkillHeader from '../headercomponents/SkillHeader'
 import AboutHeader from '../headercomponents/AboutHeader'
-import ContactHeader from '../headercomponents/ContactHeader'
+import TestHeader from '../headercomponents/TestHeader'
 import ProjectHeader from '../headercomponents/ProjectHeader'
 import RudeHeader from '../headercomponents/RudeHeader'
 
@@ -32,7 +32,7 @@ export {
     HomeHeader,
     SkillHeader,
     AboutHeader,
-    ContactHeader,
+    TestHeader,
     ProjectHeader,
     RudeHeader,
 }

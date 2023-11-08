@@ -1,5 +1,5 @@
 import './header.css';
-import { Min, Full, Close, Github, Linkedin, Figma, About, Contact, Home, Project, Skills, HomeHeader, SkillHeader, AboutHeader, ContactHeader, ProjectHeader, RudeHeader } from './imports';
+import { Min, Full, Close, Github, Linkedin, Figma, About, Contact, Home, Project, Skills, HomeHeader, SkillHeader, AboutHeader, TestHeader, ProjectHeader, RudeHeader } from './imports';
 import { useState } from "react";
 
 const Header = () => {
@@ -27,9 +27,9 @@ const Header = () => {
     SetHeaderContainer('ABOUT');
   };
 
-  const ContactButton = () => {
-    SetContainer(ContactHeader);
-    SetHeaderContainer('CONTACT');
+  const TestButton = () => {
+    SetContainer(TestHeader);
+    SetHeaderContainer('TESTING');
   };
 
   const RudeButton = () => {
@@ -78,9 +78,9 @@ const Header = () => {
               </li>
 
               <li className="flex py-4">
-                <img onClick={ContactButton} src={Contact} alt="Contact" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer'/>
-                <div onClick={ContactButton} className='self-center underline-offset-4 hover:underline cursor-pointer'>
-                  Contact
+                <img onClick={TestButton} src={Contact} alt="Contact" className='Icon self-center w-10 mr-4 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer'/>
+                <div onClick={TestButton} className='self-center underline-offset-4 hover:underline cursor-pointer'>
+                  Testing
                 </div>
               </li>
             </ul>

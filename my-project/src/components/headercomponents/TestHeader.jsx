@@ -1,5 +1,5 @@
 import { Github, Linkedin } from './imports';
-const ContactHeader = () => {
+const TestHeader = () => {
 
   return (
     <div className="flex justify-center">
@@ -19,4 +19,4 @@ const ContactHeader = () => {
   )
 }
 
-export default ContactHeader
+export default TestHeader
