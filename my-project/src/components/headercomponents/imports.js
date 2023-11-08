@@ -6,6 +6,8 @@ import MascotAngry from '../../assets/MascotAngry.svg'
 import DesignDev from '../../assets/DesignDev.png'
 import BackDev from '../../assets/BackDev.png'
 import FrontDev from '../../assets/FrontDev.png'
+import Jumpstart from '../../assets/Jumpstart.png'
+import Wubble from '../../assets/Wubble.svg'
 
 export {
     Github,
@@ -16,4 +18,6 @@ export {
     DesignDev,
     BackDev,
     FrontDev,
+    Wubble,
+    Jumpstart,
 }
