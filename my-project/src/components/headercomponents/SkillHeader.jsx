@@ -2,11 +2,11 @@ import { DesignDev, BackDev, FrontDev } from './imports';
 const SkillHeader = () => {
 
   return (
-    <div>
+    <div className=''>
 
       <div className="PlaceHolder"></div>
       
-      <div className="grid grid-cols-1 gap-12 xl:grid-cols-3">
+      <div className="grid grid-cols-2 gap-12 xl:grid-cols-3">
         <div className="Container">
           <div className="Header text-2xl font-bold font-IBMmono text-center pb-4">Front-End Development</div>
           <img src={FrontDev} alt="" className='w-[50%] mx-auto'/>
