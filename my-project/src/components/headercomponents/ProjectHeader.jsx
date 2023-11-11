@@ -52,7 +52,7 @@ const ProjectHeader = () => {
         </div>
 
         <div className="Container">
-          <a target='_blank'rel='noopener noreferrer' href="https://www.figma.com/file/JnuybEp3eDS5XqzJX9X84A/Asymmetric?type=design&node-id=0%3A1&mode=design&t=rZIlnhTMN6iHfpxp-1">
+          <a target='_blank'rel='noopener noreferrer' href="https://www.figma.com/file/CkWC55aypa2m68gPPPPMro/Untitled?type=design&node-id=0%3A1&mode=design&t=8OPTN0wAGQL2ZKXF-1">
           <div className="h-[10rem]">
             <img src={Guide} alt="" className='h-40 mx-auto'/>
           </div>
@@ -60,7 +60,7 @@ const ProjectHeader = () => {
           </a>
           <div className="SubHeader text-base font-bold font-IBMmono text-purple text-center">Figma Design - React WIP</div> 
           <div class="flex justify-center pt-2">
-            <a target='_blank'rel='noopener noreferrer' href="https://www.figma.com/file/JnuybEp3eDS5XqzJX9X84A/Asymmetric?type=design&node-id=0%3A1&mode=design&t=rZIlnhTMN6iHfpxp-1"><img src={Figma} alt="Figma" className='Icon self-center w-10 hover:-translate-y-1 hover:scale-110 duration-300'/></a>
+            <a target='_blank'rel='noopener noreferrer' href="https://www.figma.com/file/CkWC55aypa2m68gPPPPMro/Untitled?type=design&mode=design&t=iiALTUcyJtCM2h6H-1"><img src={Figma} alt="Figma" className='Icon self-center w-10 hover:-translate-y-1 hover:scale-110 duration-300'/></a>
           </div> 
         </div>
 
