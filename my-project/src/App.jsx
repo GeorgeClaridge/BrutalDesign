@@ -1,6 +1,6 @@
 import './App.css'
 import { Navbar,Tool, Header } from './components'
-import { MobileHeader, MobileNavbar, MobileTool, MobileInfo, MobileProject } from './mobilecomponents'
+import { MobileHeader, MobileNavbar, MobileTool, MobileSkills, MobileProject } from './mobilecomponents'
 import { Background } from './assets'
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <MobileNavbar />
         <MobileHeader />
         <MobileProject />
-        <MobileInfo />
+        <MobileSkills />
         <MobileTool />
       </div>
     </div>

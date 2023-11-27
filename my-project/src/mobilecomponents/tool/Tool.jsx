@@ -5,11 +5,11 @@ const Tool = () => {
     <div className="pt-12">
 
         <div className="bg-purple rounded-t-[20px] border-[2px] shadow-solid-primary py-2">
-          <div className="text-2xl font-semibold flex justify-center">TOOLS USED</div>
+          <div className="text-2xl font-bold font-IBMmono flex justify-center">TOOLS USED</div>
         </div>
 
         <div className="bg-white rounded-b-[20px] border-[2px] border-t-[0px] shadow-solid-primary">
-          <div className="Content p-4">
+          <div className="Content p-5">
 
             <div className="Header text-xl font-bold font-IBMmono">Figma - <span className='text-purple'>Design Tool</span></div>
             <div className="Paragraph font-IBMsans text-base pt-1 leading-8">This website was ideated using Figma starting with a concept and developed over time with neubrutalism in mind. Once I had a base design I began to create images and content for the website. All of this can be found in the Figma file.</div>
@@ -26,7 +26,7 @@ const Tool = () => {
       <div className="pt-12 pb-4">
 
         <div className="bg-green rounded-t-[20px] border-[2px] shadow-solid-primary py-2">
-          <div className="text-2xl font-semibold flex justify-center">GITHUB</div>
+          <div className="text-2xl font-bold font-IBMmono flex justify-center">GITHUB</div>
         </div>
 
         <div className="bg-white rounded-b-[20px] border-[2px] border-t-[0px] shadow-solid-primary">
