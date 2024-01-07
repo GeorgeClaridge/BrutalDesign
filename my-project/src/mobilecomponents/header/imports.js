@@ -1,6 +1,3 @@
-import Mascot from '../../assets/Mascot.png'
+import Mascot from "../../assets/Mascot.png"
 
-
-export {
-    Mascot,
-}
+export { Mascot }

@@ -1,5 +1,3 @@
-export { default as Navbar } from './navbar/Navbar';
-export { default as Header } from './header/Header';
-export { default as Tool } from './tool/Tool';
-
-
+export { default as Navbar } from "./navbar/Navbar"
+export { default as Header } from "./header/Header"
+export { default as Tool } from "./tool/Tool"

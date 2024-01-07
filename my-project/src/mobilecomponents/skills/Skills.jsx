@@ -1,23 +1,26 @@
-import { DesignDev, BackDev, FrontDev } from './imports';
+import { DesignDev, BackDev, FrontDev } from "./imports"
 
 const Skills = () => {
   return (
-  
-    <div className="pt-12 pb-4">
-
-      <div className="bg-green rounded-t-[20px] border-[2px] shadow-solid-primary py-2">
-        <div className="text-2xl font-bold font-IBMmono flex justify-center">Project</div>
+    <div className="pb-4 pt-12">
+      <div className="shadow-solid-primary rounded-t-[20px] border-[2px] bg-green py-2">
+        <div className="flex justify-center font-IBMmono text-2xl font-bold">
+          Project
+        </div>
       </div>
 
-      <div className="bg-white rounded-b-[20px] border-[2px] border-t-[0px] shadow-solid-primary p-5">
-      
-        <div className="Content p-4 grid grid-cols-1 gap-20">
+      <div className="shadow-solid-primary rounded-b-[20px] border-[2px] border-t-[0px] bg-white p-5">
+        <div className="Content grid grid-cols-1 gap-20 p-4">
           <div className="Container">
-            <div className="Header text-2xl font-bold font-IBMmono text-center">Front-End</div>
-            <div className="Header text-2xl font-bold font-IBMmono text-center pb-4">Development</div>
-            <img src={FrontDev} alt="" className='w-[50%] mx-auto'/>
+            <div className="Header text-center font-IBMmono text-2xl font-bold">
+              Front-End
+            </div>
+            <div className="Header pb-4 text-center font-IBMmono text-2xl font-bold">
+              Development
+            </div>
+            <img src={FrontDev} alt="" className="mx-auto w-[50%]" />
             <div className="List flex justify-center">
-              <ul className='text-xl font-bold font-IBMmono list-disc list-inside pt-8'>
+              <ul className="list-inside list-disc pt-8 font-IBMmono text-xl font-bold">
                 <li>HTML / CSS</li>
                 <li>Tailwind / Bootstrap</li>
                 <li>React / RubyOnRails</li>
@@ -26,11 +29,15 @@ const Skills = () => {
           </div>
 
           <div className="Container">
-            <div className="Header text-2xl font-bold font-IBMmono text-center">Back-End</div>
-            <div className="Header text-2xl font-bold font-IBMmono text-center pb-4">Development</div>
-            <img src={BackDev} alt="" className='w-[50%] mx-auto'/>
+            <div className="Header text-center font-IBMmono text-2xl font-bold">
+              Back-End
+            </div>
+            <div className="Header pb-4 text-center font-IBMmono text-2xl font-bold">
+              Development
+            </div>
+            <img src={BackDev} alt="" className="mx-auto w-[50%]" />
             <div className="List flex justify-center">
-              <ul className='text-xl font-bold font-IBMmono list-disc list-inside pt-8'>
+              <ul className="list-inside list-disc pt-8 font-IBMmono text-xl font-bold">
                 <li>Github</li>
                 <li>APIs</li>
                 <li>SQL Databases</li>
@@ -40,11 +47,15 @@ const Skills = () => {
           </div>
 
           <div className="Container">
-            <div className="Header text-2xl font-bold font-IBMmono text-center">UI / UX</div>
-            <div className="Header text-2xl font-bold font-IBMmono text-center pb-4">Design</div>
-            <img src={DesignDev} alt="" className='w-[50%] mx-auto'/>
+            <div className="Header text-center font-IBMmono text-2xl font-bold">
+              UI / UX
+            </div>
+            <div className="Header pb-4 text-center font-IBMmono text-2xl font-bold">
+              Design
+            </div>
+            <img src={DesignDev} alt="" className="mx-auto w-[50%]" />
             <div className="List flex justify-center">
-              <ul className='text-xl font-bold font-IBMmono list-disc list-inside pt-8'>
+              <ul className="list-inside list-disc pt-8 font-IBMmono text-xl font-bold">
                 <li>Figma</li>
                 <li>Vector Illustrations</li>
                 <li>Responsive Design</li>
@@ -53,11 +64,8 @@ const Skills = () => {
             </div>
           </div>
         </div>
-
       </div>
-
     </div>
-
   )
 }
 

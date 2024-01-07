@@ -1,33 +1,63 @@
-import './navbar.css';
-import {Github, Logo, Figma} from './imports'
+import "./navbar.css"
+import { Github, Logo, Figma } from "./imports"
 
 const Navbar = () => {
   return (
-  
     <div className="flex flex-row justify-between py-6">
-
       <div className="flex font-IBMmono">
         <div className="">
-          <img src={Logo} alt="Logo" className='Logo self-center w-24'/>
+          <img src={Logo} alt="Logo" className="Logo w-24 self-center" />
         </div>
-        <div className="self-center text-xl font-bold text-purple pl-4">
+        <div className="self-center pl-4 text-xl font-bold text-purple">
           <div className="">Neubrutalism</div>
           <div className="">Project</div>
         </div>
       </div>
 
-      <div className="flex justify-between self-center text-xl font-bold bg-white border-[2px] shadow-solid-primary rounded-full py-4 px-5 IBMmono">
-        <div className="Link self-center pl-[0.6rem] pr-3 text-purple">WEBSITE FILES:</div>
-        <a target='_blank'rel='noopener noreferrer' href="https://github.com/GeorgeClaridge/BrutalDesign" className="Link self-center underline-offset-4 pr-3 hover:underline cursor-pointer">GITHUB</a>
-        <a target='_blank'rel='noopener noreferrer' href="https://github.com/GeorgeClaridge/BrutalDesign"><img src={Github} alt="Github" className='Icon self-center w-8 mr-3 hover:-translate-y-1 hover:scale-110 duration-300'/></a>
-        <a target='_blank'rel='noopener noreferrer' href="https://www.figma.com/file/n9Y2ZU6f0YmERYSrgWiBIt/Brutal?type=design&node-id=0%3A1&mode=design&t=8zFX6ZBIMMG0o9oC-1" className="Link underline-offset-4 self-center pr-3 hover:underline cursor-pointer">FIGMA</a>
-        <a target='_blank'rel='noopener noreferrer' href="https://www.figma.com/file/n9Y2ZU6f0YmERYSrgWiBIt/Brutal?type=design&node-id=0%3A1&mode=design&t=8zFX6ZBIMMG0o9oC-1"><img src={Figma} alt="Figma" className='Icon self-center w-8 mr-3 hover:underline cursor-pointer hover:-translate-y-1 hover:scale-110 duration-300'/></a>
+      <div className="shadow-solid-primary IBMmono flex justify-between self-center rounded-full border-[2px] bg-white px-5 py-4 text-xl font-bold">
+        <div className="Link self-center pl-[0.6rem] pr-3 text-purple">
+          WEBSITE FILES:
+        </div>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/GeorgeClaridge/BrutalDesign"
+          className="Link cursor-pointer self-center pr-3 underline-offset-4 hover:underline"
+        >
+          GITHUB
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/GeorgeClaridge/BrutalDesign"
+        >
+          <img
+            src={Github}
+            alt="Github"
+            className="Icon mr-3 w-8 self-center duration-300 hover:-translate-y-1 hover:scale-110"
+          />
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.figma.com/file/n9Y2ZU6f0YmERYSrgWiBIt/Brutal?type=design&node-id=0%3A1&mode=design&t=8zFX6ZBIMMG0o9oC-1"
+          className="Link cursor-pointer self-center pr-3 underline-offset-4 hover:underline"
+        >
+          FIGMA
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.figma.com/file/n9Y2ZU6f0YmERYSrgWiBIt/Brutal?type=design&node-id=0%3A1&mode=design&t=8zFX6ZBIMMG0o9oC-1"
+        >
+          <img
+            src={Figma}
+            alt="Figma"
+            className="Icon mr-3 w-8 cursor-pointer self-center duration-300 hover:-translate-y-1 hover:scale-110 hover:underline"
+          />
+        </a>
       </div>
-
     </div>
-
-
-         
   )
 }
 

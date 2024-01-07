@@ -1,18 +1,20 @@
-import { DesignDev, BackDev, FrontDev } from './imports';
+import { DesignDev, BackDev, FrontDev } from "./imports"
 const SkillHeader = () => {
-
   return (
-    <div className=''>
-
+    <div className="">
       <div className="PlaceHolder"></div>
-      
+
       <div className="grid grid-cols-2 gap-12 xl:grid-cols-3">
         <div className="Container">
-          <div className="Header text-2xl font-bold font-IBMmono text-center">Front-End</div>
-          <div className="Header text-2xl font-bold font-IBMmono text-center pb-4">Development</div>
-          <img src={FrontDev} alt="" className='w-[50%] mx-auto'/>
+          <div className="Header text-center font-IBMmono text-2xl font-bold">
+            Front-End
+          </div>
+          <div className="Header pb-4 text-center font-IBMmono text-2xl font-bold">
+            Development
+          </div>
+          <img src={FrontDev} alt="" className="mx-auto w-[50%]" />
           <div className="List flex justify-center">
-            <ul className='text-xl font-bold font-IBMmono list-disc list-inside pt-8'>
+            <ul className="list-inside list-disc pt-8 font-IBMmono text-xl font-bold">
               <li>HTML / CSS</li>
               <li>Tailwind / Bootstrap</li>
               <li>React / RubyOnRails</li>
@@ -21,11 +23,15 @@ const SkillHeader = () => {
         </div>
 
         <div className="Container">
-          <div className="Header text-2xl font-bold font-IBMmono text-center">Back-End</div>
-          <div className="Header text-2xl font-bold font-IBMmono text-center pb-4">Development</div>
-          <img src={BackDev} alt="" className='w-[50%] mx-auto'/>
+          <div className="Header text-center font-IBMmono text-2xl font-bold">
+            Back-End
+          </div>
+          <div className="Header pb-4 text-center font-IBMmono text-2xl font-bold">
+            Development
+          </div>
+          <img src={BackDev} alt="" className="mx-auto w-[50%]" />
           <div className="List flex justify-center">
-            <ul className='text-xl font-bold font-IBMmono list-disc list-inside pt-8'>
+            <ul className="list-inside list-disc pt-8 font-IBMmono text-xl font-bold">
               <li>Github</li>
               <li>APIs</li>
               <li>SQL Databases</li>
@@ -35,11 +41,15 @@ const SkillHeader = () => {
         </div>
 
         <div className="Container">
-          <div className="Header text-2xl font-bold font-IBMmono text-center">UI / UX</div>
-          <div className="Header text-2xl font-bold font-IBMmono text-center pb-4">Design</div>
-          <img src={DesignDev} alt="" className='w-[50%] mx-auto'/>
+          <div className="Header text-center font-IBMmono text-2xl font-bold">
+            UI / UX
+          </div>
+          <div className="Header pb-4 text-center font-IBMmono text-2xl font-bold">
+            Design
+          </div>
+          <img src={DesignDev} alt="" className="mx-auto w-[50%]" />
           <div className="List flex justify-center">
-            <ul className='text-xl font-bold font-IBMmono list-disc list-inside pt-8'>
+            <ul className="list-inside list-disc pt-8 font-IBMmono text-xl font-bold">
               <li>Figma</li>
               <li>Vector Illustrations</li>
               <li>Responsive Design</li>
@@ -48,7 +58,6 @@ const SkillHeader = () => {
           </div>
         </div>
       </div>
-
     </div>
   )
 }
