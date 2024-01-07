@@ -1,4 +1,4 @@
-import { Wubble, Jumpstart, Github, Figma , Asymmetric, Guide } from './imports';
+import { Wubble, Jumpstart, Github, Figma , Asymmetric, Guide, Ghost } from './imports';
 const ProjectHeader = () => {
 
   return (
@@ -24,7 +24,7 @@ const ProjectHeader = () => {
         </div>
 
         <div className="Container">
-          <a target='_blank'rel='noopener noreferrer' href="https://georgeclaridge.github.io/FakeCompany/">
+          <a target='_blank'rel='noopener noreferrer' href="https://georgeclaridge.github.io/JumpStart/">
             <div className="h-[10rem]">
               <img src={Jumpstart} alt="" className='w-40 mx-auto'/>
             </div>
@@ -78,15 +78,15 @@ const ProjectHeader = () => {
         </div>
 
         <div className="Container">
+          <a target='_blank'rel='noopener noreferrer' href="https://www.figma.com/file/Ju2ebKfH98Y8YbVlmSlHJO/illustration-Examples?type=design&mode=design&t=n9B3M9Q3h1Q4mTzn-1">
           <div className="h-[10rem]">
-            <img src={Jumpstart} alt="" className='w-40 mx-auto'/>
+            <img src={Ghost} alt="" className='h-40 mx-auto'/>
           </div>
-          <div className="Header text-2xl font-bold font-IBMmono text-center hover:underline cursor-pointer">Placeholder</div>
-          <div className="SubHeader text-base font-bold font-IBMmono text-purple text-center">Placeholder</div> 
+          <div className="Header text-2xl font-bold font-IBMmono text-center hover:underline cursor-pointer">Illustrations</div>
+          </a>
+          <div className="SubHeader text-base font-bold font-IBMmono text-purple text-center">Figma Design</div> 
           <div class="flex justify-center pt-2">
-            <a target='_blank'rel='noopener noreferrer' href="https://github.com/GeorgeClaridge/FakeCompany"><img src={Github} alt="Github" className='Icon self-center w-10 hover:-translate-y-1 hover:scale-110 duration-300'/></a>
-            <div className="px-2"></div>
-            <a target='_blank'rel='noopener noreferrer' href="https://www.figma.com/file/yUf60Lk7wxET028cQ6ukCS/Fake-Company?type=design&node-id=0%3A1&mode=design&t=Pf2YGu5ct6nPxVTN-1"><img src={Figma} alt="Figma" className='Icon self-center w-10 hover:-translate-y-1 hover:scale-110 duration-300'/></a>
+            <a target='_blank'rel='noopener noreferrer' href="https://www.figma.com/file/Ju2ebKfH98Y8YbVlmSlHJO/illustration-Examples?type=design&mode=design&t=n9B3M9Q3h1Q4mTzn-1"><img src={Figma} alt="Figma" className='Icon self-center w-10 hover:-translate-y-1 hover:scale-110 duration-300'/></a>
           </div> 
         </div>
       </div>

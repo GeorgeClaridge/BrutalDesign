@@ -29,7 +29,7 @@ const Project = () => {
         </div>
 
         <div className="Container">
-          <a target='_blank'rel='noopener noreferrer' href="https://georgeclaridge.github.io/FakeCompany/">
+          <a target='_blank'rel='noopener noreferrer' href="https://georgeclaridge.github.io/JumpStart/">
             <div className="h-[10rem]">
               <img src={Jumpstart} alt="" className='w-40 mx-auto'/>
             </div>

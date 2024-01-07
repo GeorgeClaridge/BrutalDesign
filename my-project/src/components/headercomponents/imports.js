@@ -11,6 +11,7 @@ import Jumpstart from '../../assets/Jumpstart.png'
 import Wubble from '../../assets/Wubble.svg'
 import Asymmetric from '../../assets/Asymmetric.png'
 import Guide from '../../assets/Guide.svg'
+import Ghost from '../../assets/Ghost.png'
 
 export {
     Github,
@@ -26,4 +27,5 @@ export {
     Figma,
     Asymmetric,
     Guide,
+    Ghost,
 }
