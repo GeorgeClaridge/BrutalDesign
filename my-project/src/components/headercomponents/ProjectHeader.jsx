@@ -163,32 +163,26 @@ const ProjectHeader = () => {
         </div>
 
         <div className="Container">
-          <div className="h-[10rem]">
-            <img src={Amplifying} alt="" className="mx-auto h-40" />
-          </div>
-          <div className="Header cursor-pointer text-center font-IBMmono text-2xl font-bold hover:underline">
-            Amplifying
-          </div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.figma.com/file/F0Y3m5JGVPNziGPawyYsmz/Amplifying?type=design&node-id=0%3A1&mode=design&t=4ABTLKo0B6o4klD5-1"
+          >
+            <div className="h-[10rem]">
+              <img src={Amplifying} alt="" className="mx-auto h-40" />
+            </div>
+            <div className="Header cursor-pointer text-center font-IBMmono text-2xl font-bold hover:underline">
+              Amplifying
+            </div>
+          </a>
           <div className="SubHeader text-center font-IBMmono text-base font-bold text-purple">
-            Figma Design
+            Figma Design - React WIP
           </div>
           <div class="flex justify-center pt-2">
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/GeorgeClaridge/FakeCompany"
-            >
-              <img
-                src={Github}
-                alt="Github"
-                className="Icon w-10 self-center duration-300 hover:-translate-y-1 hover:scale-110"
-              />
-            </a>
-            <div className="px-2"></div>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.figma.com/file/yUf60Lk7wxET028cQ6ukCS/Fake-Company?type=design&node-id=0%3A1&mode=design&t=Pf2YGu5ct6nPxVTN-1"
+              href="https://www.figma.com/file/F0Y3m5JGVPNziGPawyYsmz/Amplifying?type=design&node-id=0%3A1&mode=design&t=4ABTLKo0B6o4klD5-1"
             >
               <img
                 src={Figma}
