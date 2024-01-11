@@ -12,6 +12,7 @@ import Wubble from "../../assets/Wubble.svg"
 import Asymmetric from "../../assets/Asymmetric.png"
 import Guide from "../../assets/Guide.svg"
 import Ghost from "../../assets/Ghost.png"
+import Amplifying from "../../assets/Amplifying.png"
 
 export {
   Github,
@@ -28,4 +29,5 @@ export {
   Asymmetric,
   Guide,
   Ghost,
+  Amplifying,
 }

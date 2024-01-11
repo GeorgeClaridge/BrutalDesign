@@ -6,6 +6,7 @@ import {
   Asymmetric,
   Guide,
   Ghost,
+  Amplifying,
 } from "./imports"
 const ProjectHeader = () => {
   return (
@@ -163,13 +164,13 @@ const ProjectHeader = () => {
 
         <div className="Container">
           <div className="h-[10rem]">
-            <img src={Jumpstart} alt="" className="mx-auto w-40" />
+            <img src={Amplifying} alt="" className="mx-auto h-40" />
           </div>
           <div className="Header cursor-pointer text-center font-IBMmono text-2xl font-bold hover:underline">
-            Placeholder
+            Amplifying
           </div>
           <div className="SubHeader text-center font-IBMmono text-base font-bold text-purple">
-            Placeholder
+            Figma Design
           </div>
           <div class="flex justify-center pt-2">
             <a
