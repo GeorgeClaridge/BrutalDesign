@@ -1,0 +1,17 @@
+<svg width="201" height="284" viewBox="0 0 201 284" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="8.5" cy="9.5" r="7" fill="#B38FFE" stroke="black" stroke-width="3"/>
+<circle cx="185.5" cy="17.5" r="7" fill="#B38FFE" stroke="black" stroke-width="3"/>
+<circle cx="100.5" cy="75.5" r="25" fill="#B4F27A" stroke="black" stroke-width="3"/>
+<path d="M199.5 102.264V257.324C199.5 265.218 193.937 271.964 186.195 273.291C165.632 276.816 127.616 282.596 100.005 282.499C73.3876 282.405 36.8349 276.78 16.793 273.311C9.06021 271.973 3.5 265.229 3.5 257.345V102.238C3.5 94.6896 8.5913 88.1517 15.9113 86.5081C35.681 82.0691 72.8444 74.6231 100.007 74.5015C128.154 74.3755 166.778 82.0195 187.059 86.5295C194.393 88.1605 199.5 94.7048 199.5 102.264Z" fill="#B4F27A" stroke="black" stroke-width="3"/>
+<path d="M182.5 115.757V223.033C182.5 231.06 176.741 237.883 168.84 239.058C151.1 241.696 121.235 245.568 99.2459 245.499C78.0777 245.433 49.4124 241.669 32.1526 239.078C24.2588 237.893 18.5 231.07 18.5 223.052V115.733C18.5 108.016 23.8242 101.376 31.352 99.9092C48.4633 96.5752 77.6341 91.5869 99.2472 91.5011C121.675 91.4121 152.043 96.5384 169.625 99.9306C177.165 101.385 182.5 108.03 182.5 115.757Z" fill="#E9E3D2" stroke="black" stroke-width="3"/>
+<circle cx="80.5" cy="262.5" r="6" fill="#B38FFE" stroke="black" stroke-width="3"/>
+<circle cx="102.5" cy="262.5" r="6" fill="#B38FFE" stroke="black" stroke-width="3"/>
+<circle cx="125.5" cy="262.5" r="6" fill="#B38FFE" stroke="black" stroke-width="3"/>
+<circle cx="53.5" cy="155.5" r="21" fill="#B38FFE" stroke="black" stroke-width="3"/>
+<circle cx="151.5" cy="155.5" r="21" fill="#B38FFE" stroke="black" stroke-width="3"/>
+<path d="M81.5 190C81.5 184.828 83.5545 179.868 87.2114 176.211C90.8684 172.554 95.8283 170.5 101 170.5C106.172 170.5 111.132 172.554 114.789 176.211C118.446 179.868 120.5 184.828 120.5 190" stroke="black" stroke-width="3"/>
+<path d="M84.2599 56.9888L71.2868 35.6183L39.1617 50.9555L12 15.2695" stroke="black" stroke-width="3"/>
+<path d="M118 56.9896L128.5 22L157.5 45L180 23.5" stroke="black" stroke-width="3"/>
+<rect x="44.9917" y="145.104" width="26" height="9" rx="4.5" transform="rotate(30 44.9917 145.104)" fill="black"/>
+<rect width="26" height="9" rx="4.5" transform="matrix(-0.866025 0.5 0.5 0.866025 160.517 145.104)" fill="black"/>
+</svg>
