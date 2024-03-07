@@ -69,7 +69,7 @@ const Header = () => {
                   onClick={HomeButton}
                   src={Home}
                   alt="Home"
-                  className="Icon mr-4 w-10 cursor-pointer self-center duration-300 hover:-translate-y-1 hover:scale-110"
+                  className="Icon mr-4 w-12 cursor-pointer self-center duration-300 hover:-translate-y-1 hover:scale-110"
                 />
                 <div
                   onClick={HomeButton}
@@ -84,7 +84,7 @@ const Header = () => {
                   onClick={SkillButton}
                   src={Skills}
                   alt="Skills"
-                  className="Icon mr-4 w-10 cursor-pointer self-center duration-300 hover:-translate-y-1 hover:scale-110"
+                  className="Icon mr-4 w-12 cursor-pointer self-center duration-300 hover:-translate-y-1 hover:scale-110"
                 />
                 <div
                   onClick={SkillButton}
@@ -99,7 +99,7 @@ const Header = () => {
                   onClick={ProjectButton}
                   src={Project}
                   alt="Project"
-                  className="Icon mr-4 w-10 cursor-pointer self-center duration-300 hover:-translate-y-1 hover:scale-110"
+                  className="Icon mr-4 w-12 cursor-pointer self-center duration-300 hover:-translate-y-1 hover:scale-110"
                 />
                 <div
                   onClick={ProjectButton}
@@ -114,7 +114,7 @@ const Header = () => {
                   onClick={AboutButton}
                   src={About}
                   alt="About"
-                  className="Icon mr-4 w-10 cursor-pointer self-center duration-300 hover:-translate-y-1 hover:scale-110"
+                  className="Icon mr-4 w-12 cursor-pointer self-center duration-300 hover:-translate-y-1 hover:scale-110"
                 />
                 <div
                   onClick={AboutButton}
@@ -129,7 +129,7 @@ const Header = () => {
                   onClick={TestButton}
                   src={Contact}
                   alt="Contact"
-                  className="Icon mr-4 w-10 cursor-pointer self-center duration-300 hover:-translate-y-1 hover:scale-110"
+                  className="Icon mr-4 w-12 cursor-pointer self-center duration-300 hover:-translate-y-1 hover:scale-110"
                 />
                 <div
                   onClick={TestButton}
