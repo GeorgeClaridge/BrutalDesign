@@ -75,7 +75,6 @@ const Tool = () => {
                     React - Tailwind - Vite
                   </div>
                 </div>
-                <div className="Icon">ICON</div>
               </li>
 
               <li className="flex justify-between py-2">
@@ -92,7 +91,6 @@ const Tool = () => {
                     React - Tailwind - Vite
                   </div>
                 </div>
-                <div className="Icon">ICON</div>
               </li>
 
               <li className="flex justify-between py-2">
@@ -107,7 +105,6 @@ const Tool = () => {
                   </a>
                   <div className="SubHeader text-base text-purple">SQL</div>
                 </div>
-                <div className="Icon">ICON</div>
               </li>
 
               <li className="flex justify-between py-2">
@@ -124,7 +121,6 @@ const Tool = () => {
                     Codemy Course
                   </div>
                 </div>
-                <div className="Icon">ICON</div>
               </li>
 
               <li className="flex justify-between py-2">
@@ -141,7 +137,6 @@ const Tool = () => {
                     Ruby On Rails - SVG Inline
                   </div>
                 </div>
-                <div className="Icon">ICON</div>
               </li>
             </ul>
 
