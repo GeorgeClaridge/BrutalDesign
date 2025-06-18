@@ -11,6 +11,8 @@ import Jumpstart from "../../assets/Jumpstart.png"
 import Wubble from "../../assets/Wubble.svg"
 import Asymmetric from "../../assets/Asymmetric.png"
 import Guide from "../../assets/Guide.svg"
+import DailyPalette from "../../assets/DailyPalette.png"
+import Vercel from "../../assets/Vercel.svg"
 
 export {
   Github,
@@ -26,4 +28,6 @@ export {
   Figma,
   Asymmetric,
   Guide,
+  DailyPalette,
+  Vercel
 }

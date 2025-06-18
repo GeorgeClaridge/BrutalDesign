@@ -16,8 +16,8 @@ const SkillHeader = () => {
           <div className="List flex justify-center">
             <ul className="list-inside list-disc pt-8 font-IBMmono text-xl font-bold">
               <li>HTML / CSS</li>
-              <li>Tailwind / Bootstrap</li>
-              <li>React / RubyOnRails</li>
+              <li>Tailwind</li>
+              <li>Javascript Frameworks</li>
             </ul>
           </div>
         </div>
@@ -32,10 +32,10 @@ const SkillHeader = () => {
           <img src={BackDev} alt="" className="mx-auto w-[50%]" />
           <div className="List flex justify-center">
             <ul className="list-inside list-disc pt-8 font-IBMmono text-xl font-bold">
-              <li>Github</li>
+              <li>Git / Github</li>
               <li>APIs</li>
               <li>SQL Databases</li>
-              <li>CISCO Networking</li>
+              <li>Supabase / Firebase</li>
             </ul>
           </div>
         </div>
@@ -50,7 +50,8 @@ const SkillHeader = () => {
           <img src={DesignDev} alt="" className="mx-auto w-[50%]" />
           <div className="List flex justify-center">
             <ul className="list-inside list-disc pt-8 font-IBMmono text-xl font-bold">
-              <li>Figma</li>
+              <li>Figma / Adobe</li>
+              <li>Framer / Wordpress</li>
               <li>Vector Illustrations</li>
               <li>Responsive Design</li>
               <li>User Experience</li>

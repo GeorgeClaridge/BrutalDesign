@@ -13,6 +13,8 @@ import Asymmetric from "../../assets/Asymmetric.png"
 import Guide from "../../assets/Guide.svg"
 import Ghost from "../../assets/Ghost.png"
 import Amplifying from "../../assets/Amplifying.png"
+import DailyPalette from "../../assets/DailyPalette.png"
+import Vercel from "../../assets/Vercel.svg"
 
 export {
   Github,
@@ -30,4 +32,6 @@ export {
   Guide,
   Ghost,
   Amplifying,
+  DailyPalette,
+  Vercel,
 }

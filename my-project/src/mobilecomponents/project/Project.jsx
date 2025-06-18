@@ -1,4 +1,4 @@
-import { Wubble, Jumpstart, Github, Figma, Asymmetric, Guide } from "./imports"
+import { Wubble, Jumpstart, Github, Figma, Asymmetric, Guide, DailyPalette, Vercel } from "./imports"
 
 const Project = () => {
   return (
@@ -101,13 +101,13 @@ const Project = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.figma.com/file/JnuybEp3eDS5XqzJX9X84A/Asymmetric?type=design&node-id=0%3A1&mode=design&t=rZIlnhTMN6iHfpxp-1"
+              href="https://dailypalette.vercel.app/"
             >
               <div className="h-[10rem]">
-                <img src={Asymmetric} alt="" className="mx-auto w-32" />
+                <img src={DailyPalette} alt="" className="mx-auto w-32" />
               </div>
               <div className="Header cursor-pointer text-center font-IBMmono text-2xl font-bold hover:underline">
-                Asymmetric
+                Daily Palette
               </div>
             </a>
             <div className="SubHeader text-center font-IBMmono text-base font-bold text-purple">
@@ -117,11 +117,11 @@ const Project = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.figma.com/file/JnuybEp3eDS5XqzJX9X84A/Asymmetric?type=design&node-id=0%3A1&mode=design&t=rZIlnhTMN6iHfpxp-1"
+                href="https://dailypalette.vercel.app/"
               >
                 <img
-                  src={Figma}
-                  alt="Figma"
+                  src={Vercel}
+                  alt="Vercel"
                   className="Icon w-10 self-center duration-300 hover:-translate-y-1 hover:scale-110"
                 />
               </a>

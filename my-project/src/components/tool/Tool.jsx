@@ -69,7 +69,7 @@ const Tool = () => {
                     href="https://georgeclaridge.github.io/JumpStart/"
                     className="cursor-pointer text-xl hover:underline"
                   >
-                    Jumpstart - Productivity Company WIP
+                    Jumpstart - Productivity Company
                   </a>
                   <div className="SubHeader text-base text-purple">
                     React - Tailwind - Vite
