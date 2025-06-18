@@ -5,7 +5,7 @@ const Skills = () => {
     <div className="pb-4 pt-12">
       <div className="shadow-solid-primary rounded-t-[20px] border-[2px] bg-green py-2">
         <div className="flex justify-center font-IBMmono text-2xl font-bold">
-          Project
+          Skills
         </div>
       </div>
 
